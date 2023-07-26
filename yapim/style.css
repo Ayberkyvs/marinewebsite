@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Miriam Libre", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 #demo-div {
@@ -22,14 +22,14 @@
 #demo-div h6 {
   font-size: 16px;
   margin: 0 !important;
-  font-family: "Miriam Libre", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 .demo.hidden {
   max-height: 0 !important;
   padding: 0 !important;
 }
-.demo{
-  transition: max-height 0.5s ease !important; 
+.demo {
+  transition: max-height 0.5s ease !important;
   max-height: 40px;
   overflow: hidden;
 }
@@ -37,11 +37,11 @@
 html,
 body {
   height: 100% !important;
-  font-family: "Miriam Libre", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 body {
-  background-color: #0f5e9c !important;
+  background-color: #002f6c !important;
   width: 100%;
   min-height: 100% !important;
   position: absolute;
@@ -60,12 +60,13 @@ body {
   justify-content: center;
   align-items: center;
   padding-top: 0px;
-  background-image: url("yapim/body-bg.png") !important;
+  background-image: url("body-bg.png") !important;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.pinyinLogo{
+.pinyinLogo {
   width: 150px;
+  margin-bottom: 50px;
 }
 .container-fluid .ship {
   display: flex;
@@ -98,7 +99,7 @@ body {
   border: 1px solid black !important;
   color: white;
 }
-.footer-container{
+.footer-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -109,18 +110,18 @@ body {
   z-index: 99;
   bottom: 0px !important;
 }
-.footer-container .footer-link{
+.footer-container .footer-link {
   color: white;
   text-decoration: none;
   font-size: 12px;
 }
-.footer-container span{
+.footer-container span {
   color: white;
   text-decoration: none;
   font-size: 15px;
   font-weight: bold;
 }
-.footer-container img{
+.footer-container img {
   position: absolute;
   width: 35px;
   height: auto;
@@ -137,8 +138,7 @@ body {
   #demo-div h6 {
     font-size: 12px !important;
   }
-  .container-fluid{
+  .container-fluid {
     background-size: 200%;
   }
 }
-

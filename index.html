@@ -1,74 +1,100 @@
-<!doctype html>
-<html lang="tr">
-
-
-<!--
-██╗░░░██╗░█████╗░██╗░░░██╗░█████╗░░██████╗
-╚██╗░██╔╝██╔══██╗██║░░░██║██╔══██╗██╔════╝
-░╚████╔╝░███████║╚██╗░██╔╝███████║╚█████╗░
-░░╚██╔╝░░██╔══██║░╚████╔╝░██╔══██║░╚═══██╗
-░░░██║░░░██║░░██║░░╚██╔╝░░██║░░██║██████╔╝
-░░░╚═╝░░░╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝╚═════╝░
-Unauthorized and misuse of codes is prohibited.
-All Rights Reserved.
-https://ayberkyavas.com
--->
-
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description"
-    content="Pinyin Marine AS Websitesi şu an yapım aşamasındadır. Sayfamızı daha sonra tekrar ziyaret ediniz.">
-  <meta name="keywords" content="pinyin,marine,liman,gemi parçaları,gemi">
-  <meta name="author" content="Ayberk Yavaş">
-  <meta name="apple-mobile-web-app-title" content="Yapım Aşamasında | SeraPore">
-  <title>Under Construction | Pinyin Marine AS</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="icon" type="image/x-icon" href="/favicon.ico">
-  <link href="https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
-  <!-- FONT ICIN -->
-  <script src="https://kit.fontawesome.com/ec613c6134.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="Marine,Maritime,Ship,Parça,Gemi,ship parts">
+    <meta name="description" content="Açıklama Gelecek">
+    <meta name="author" content="Ayberk Yavaş">
+    <link rel="stylesheet" href="scss/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Pinyin Marine AS</title>
 </head>
 
 <body>
+    <div class="loader"></div>
+    <!--==============Header Section Begins===================-->
+    <header class="header">
+        <div class="inner-header">
+            <div class="logo-wrapper"><a href="index.html"><img src="img/bluelogo.svg" alt="Pinyin Logo"
+                        class="mainLogo"></a>
+            </div>
+            <nav class="navigation">
+                <ul>
+                    <li class="menu-item-li"><a href="#" class="menu-item-link">Hakkımızda</a></li>
+                    <li class="menu-item-li"><a href="#" class="menu-item-link">Servisler</a></li>
+                    <li class="menu-item-li"><a href="#" class="menu-item-link">Ürünler</a></li>
+                    <li class="menu-item-li"><a href="#" class="menu-item-link">İletişim</a></li>
+                </ul>
+            </nav>
+            <div class="languageSelector">
+                <h3><a href="#" class="selected">TR</a><span>|</span><a href="#">EN</a></h3>
+            </div>
+            <div class="hamburger-menu">
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+            </div>
+        </div>
 
-  <!--================ Loader Başlangıç =================-->
-  <!--================ Loader Bitiş =================-->
+        <div class="popup" id="popup">
+            <!-- Popup içeriği buraya gelecek -->
+            <div class="menu">
+                <!-- Menü içeriği buraya gelecek -->
+                <ul>
+                    <li><a href="#">Hakkımızda</a></li>
+                    <li><a href="#">Servisler</a></li>
+                    <li><a href="#">Ürünler</a></li>
+                    <li><a href="#">İletişim</a></li>
+                    <!-- Diğer menü öğeleri eklenebilir -->
+                </ul>
+            </div>
+        </div>
+        <!--=======Mobile Menu -->
+    </header>
 
-  <!--================ Demo Başlangıç =================-->
+    <!--==============Header Section Ends===================-->
+    <main class="main">
+        <section>
+            <div class="banner-wrapper">
+                <div class="banner-slogan">
+                    <i>
+                        <p>Hayallerinizin ötesinde bir<br>
+                    </i><span class="typewrite" data-period="2000"
+                        data-type='[ "Deneyim", "Bilgi", "Disiplin", "Teknik" ]'></span>
+                    </p>
 
-  <div id="demo-div" class="demo hidden">
-    <h6>Contact us at <a href="mailto:info@pinyin-marine.com"
-        style="color:#86caff; text-decoration: none;">info@pinyin-marine.com</a> for general inquiries and at
-      <a href="mailto:ayberk.yavas@pinyin-marine.com" target="_blank"
-        style="color:#86caff; text-decoration: none;">ayberk.yavas@pinyin-marine.com</a> for developer-related matters.
-    </h6>
-  </div>
+                </div>
+                <img src="img/bg.png" alt="Banner">
+            </div>
+        </section>
+        <section class="clients-wrapper">
+        </section>
 
-  <!--================ Main Alanı Başlangıç =================-->
-  <main>
-    <div class="container-fluid">
-      <img src="yapim/pinyin.png" class="pinyinLogo">
-      <h2 style="text-transform: uppercase;">page under constructıon</h2>
-      <img class="ship" src="yapim/pngimg.png" alt="Yapım Aşamasında">
-      <br>
-    </div>
-    <footer>
-      <div class="footer-container demo hidden">
-        <a class="footer-link" href="ayberkyavas.com" target="_blank">powered by
-          <span>YAVAS</span></a>
-        <a href="ayberkyavas.com" target="_blank"><img src="yapim/yavaslogopc.png" alt="YAVAS Logo Pc"></a>
-      </div>
-    </footer>
-  </main>
-  <!--================ Main Alanı Bitiş =================-->
-  <script src="app.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
+    </main>
 </body>
+<script src="js/index.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 
 </html>

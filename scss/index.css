@@ -1,0 +1,314 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.main {
+  width: 100%;
+  height: auto;
+}
+
+.banner-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.banner-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+.banner-wrapper .banner-slogan {
+  transition: all ease-in-out 1s;
+  opacity: 0;
+  width: auto;
+  text-align: right;
+  font-size: 70px;
+  font-family: "Inter", sans-serif;
+  position: absolute;
+  top: 40%;
+  left: 70%;
+  font-weight: 200 !important;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.banner-wrapper .banner-slogan span {
+  font-weight: 600;
+  font-size: 80px;
+  background: linear-gradient(to top, transparent, white);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@media screen and (max-width: 800px) {
+  .banner-wrapper img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .banner-slogan {
+    top: 40% !important;
+    left: 50% !important;
+    text-align: right !important;
+    font-size: 40px !important;
+  }
+  .banner-slogan span {
+    font-size: 50px !important;
+  }
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.header {
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 0px;
+  background-color: transparent;
+  transition: all ease-in-out 0.2s;
+  z-index: 99;
+}
+
+.inner-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  height: 100%;
+}
+.inner-header .logo-wrapper {
+  width: 130px;
+  height: 100%;
+}
+.inner-header .logo-wrapper img {
+  transform: scale(1);
+  width: 100%;
+  height: 100%;
+  cursor: hand;
+}
+.inner-header ul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: auto;
+  height: 100%;
+}
+.inner-header ul li {
+  height: 100%;
+  width: 100px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.inner-header ul li:hover {
+  background-color: rgba(0, 47, 108, 0.12);
+  border-bottom: 1px solid #002f6c;
+}
+.inner-header ul a {
+  color: #002f6c;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+}
+
+.languageSelector {
+  width: auto;
+  height: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.languageSelector h3 {
+  margin: 0;
+  font-size: 14px;
+}
+.languageSelector h3 a {
+  color: #002f6c;
+  margin: 5px;
+}
+.languageSelector h3 span {
+  color: #002f6c;
+}
+
+.pageActive2 {
+  background-color: rgba(255, 255, 255, 0.12);
+  border-bottom: 1px solid white;
+}
+
+.pageActive {
+  background-color: rgba(0, 47, 108, 0.12);
+  border-bottom: 1px solid #002f6c;
+}
+
+.header-2 {
+  background-color: #002f6c;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.header-2 .menu-item-li:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+  border-bottom: 1px solid white;
+}
+.header-2 .menu-item-link {
+  color: white;
+}
+.header-2 .languageSelector a {
+  color: white;
+}
+.header-2 .languageSelector span {
+  color: white;
+}
+.header-2 .hamburger-line {
+  background-color: white;
+}
+
+.selected {
+  color: rgb(255, 65, 65) !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.hamburger-line-white {
+  background-color: white !important;
+}
+
+.hamburger-menu {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.hamburger-line {
+  margin: 2px;
+  width: 25px;
+  height: 3px;
+  background-color: #002f6c;
+  transition: transform 0.3s;
+}
+
+.hamburger-menu.open .hamburger-line:nth-child(1) {
+  transform: rotate(-45deg) translate(-2px, 2px);
+  margin: 0;
+}
+
+.hamburger-menu.open .hamburger-line:nth-child(2) {
+  opacity: 0;
+  margin: 0;
+}
+
+.hamburger-menu.open .hamburger-line:nth-child(3) {
+  transform: rotate(45deg) translate(-2px, -2px);
+  margin: 0;
+}
+
+/* Pop-up stil ayarları */
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Yarı saydam siyah bir arka plan */
+  z-index: 998;
+}
+
+.popup.show {
+  display: block;
+}
+
+.menu {
+  position: absolute;
+  right: 0;
+  width: 70%;
+  height: 100%;
+  background-color: #002f6c;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: translateX(100%); /* Başlangıçta sol tarafta gizli olacak */
+  transition: transform 0.3s ease; /* Geçiş efekti ekleyecek */
+}
+.menu ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+.menu li {
+  margin-bottom: 50px;
+}
+.menu a {
+  color: white;
+  text-decoration: none !important;
+  font-size: 20px;
+}
+.menu a:hover {
+  color: white;
+  padding-bottom: 3px;
+  border-bottom: 1px solid white;
+}
+
+.menu.showw {
+  transform: translateX(0); /* Pop-up'ı görünür hale getirecek */
+}
+
+@media screen and (max-width: 800px) {
+  .header {
+    height: 60px;
+  }
+  .inner-header .logo-wrapper {
+    width: 100px;
+  }
+  .navigation {
+    display: none;
+  }
+  .languageSelector {
+    display: none;
+  }
+  .hamburger-menu {
+    display: flex;
+  }
+}/*# sourceMappingURL=index.css.map */
