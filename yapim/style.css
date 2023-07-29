@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
 * {
   padding: 0;
   margin: 0;
@@ -33,15 +35,76 @@
   max-height: 40px;
   overflow: hidden;
 }
+.container-fluid h2 {
+  font-family: "Poppins", sans-serif !important;
+  position: relative;
+}
+
+.container-fluid h2 {
+  color: #fff;
+  font-size: 8em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+}
+.container-fluid h6 {
+  color: rgb(255, 255, 255) !important;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container-fluid h2:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 1px #ffffff;
+}
+
+.container-fluid h2:nth-child(2) {
+  color: #016fff;
+  animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 45%,
+      16% 44%,
+      33% 50%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+  }
+
+  50% {
+    clip-path: polygon(
+      0% 60%,
+      15% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}
 
 html,
 body {
   height: 100% !important;
-  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-  background-color: #002f6c !important;
+  background-color: #000000 !important;
   width: 100%;
   min-height: 100% !important;
   position: absolute;
@@ -58,46 +121,15 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
   align-items: center;
   padding-top: 0px;
-  background-image: url("body-bg.png") !important;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .pinyinLogo {
-  width: 150px;
-  margin-bottom: 50px;
-}
-.container-fluid .ship {
+  opacity: 0.03;
+  z-index: -1;
   display: flex;
-  max-width: 800px;
   width: 100%;
-  height: auto;
-}
-.container-fluid h2 {
-  font-size: 35px;
-  font-weight: 500;
-  text-align: center;
-  color: white;
-}
-.container-fluid button {
-  width: 200px;
-  height: 50px;
-  background-color: black;
-  border: 1px solid black;
-  border-radius: 5px;
-  color: white;
-}
-.container-fluid button:hover {
-  background-color: transparent;
-  border: 1px solid black;
-  color: black;
-  transition: ease-in-out 0.1s;
-}
-.container-fluid button:focus {
-  background-color: black !important;
-  border: 1px solid black !important;
-  color: white;
 }
 .footer-container {
   display: flex;
@@ -138,7 +170,11 @@ body {
   #demo-div h6 {
     font-size: 12px !important;
   }
-  .container-fluid {
-    background-size: 200%;
+  .container-fluid h2 {
+    font-size: 35px;
+    width: 100%;
+  }
+  .container-fluid h6 {
+    font-size: 14px;
   }
 }

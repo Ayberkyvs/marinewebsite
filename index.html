@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+<!--
+██╗░░░██╗░█████╗░██╗░░░██╗░█████╗░░██████╗
+╚██╗░██╔╝██╔══██╗██║░░░██║██╔══██╗██╔════╝
+░╚████╔╝░███████║╚██╗░██╔╝███████║╚█████╗░
+░░╚██╔╝░░██╔══██║░╚████╔╝░██╔══██║░╚═══██╗
+░░░██║░░░██║░░██║░░╚██╔╝░░██║░░██║██████╔╝
+░░░╚═╝░░░╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝╚═════╝░
+Unauthorized and misuse of codes is prohibited.
+All Rights Reserved.
+https://ayberkyavas.com
+-->
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,14 +45,18 @@
             </div>
             <nav class="navigation">
                 <ul>
-                    <li class="menu-item-li"><a href="#" class="menu-item-link">Hakkımızda</a></li>
-                    <li class="menu-item-li"><a href="#" class="menu-item-link">Servisler</a></li>
-                    <li class="menu-item-li"><a href="#" class="menu-item-link">Ürünler</a></li>
-                    <li class="menu-item-li"><a href="#" class="menu-item-link">İletişim</a></li>
+                    <li class="menu-item-li"><a href="#" class="menu-item-link" data-language="aboutus">Hakkımızda</a>
+                    </li>
+                    <li class="menu-item-li"><a href="#" class="menu-item-link" data-language="services">Servisler</a>
+                    </li>
+                    <li class="menu-item-li"><a href="#" class="menu-item-link" data-language="products">Ürünler</a>
+                    </li>
+                    <li class="menu-item-li"><a href="#" class="menu-item-link" data-language="contactus">İletişim</a>
+                    </li>
                 </ul>
             </nav>
             <div class="languageSelector">
-                <h3><a href="#" class="selected">TR</a><span>|</span><a href="#">EN</a></h3>
+                <h3><a class="selected" data-use="tr">TR</a><span>|</span><a data-use="en">EN</a></h3>
             </div>
             <div class="hamburger-menu">
                 <div class="hamburger-line"></div>
@@ -53,10 +70,10 @@
             <div class="menu">
                 <!-- Menü içeriği buraya gelecek -->
                 <ul>
-                    <li><a href="#">Hakkımızda</a></li>
-                    <li><a href="#">Servisler</a></li>
-                    <li><a href="#">Ürünler</a></li>
-                    <li><a href="#">İletişim</a></li>
+                    <li><a href="#" data-language="aboutus2">Hakkımızda</a></li>
+                    <li><a href="#" data-language="services2">Servisler</a></li>
+                    <li><a href="#" data-language="products2">Ürünler</a></li>
+                    <li><a href="#" data-language="contactus2">İletişim</a></li>
                     <!-- Diğer menü öğeleri eklenebilir -->
                 </ul>
             </div>
@@ -80,32 +97,12 @@
             </div>
         </section>
         <section>
-            <div class="clients-wrapper">
-                <div class="clients-heading-wrapper">
-                    <div class="clients-heading">
-                        <h5 style="text-transform: uppercase;">Dogru Yerdesiniz</h5>
-                        <h3>Sadık Müşterilerimizin İzinden Yürüyün</h3>
-                        <p>Müşterilerimizin sadakati ve tercihiyle yolumuza güçlü adımlarla devam ediyoruz. Sizi de
-                            kaliteli hizmetimizle memnun
-                            etmek için bekliyoruz! Hoş geldiniz.</p>
-                    </div>
-                </div>
-                <div class="clients-body-wrapper">
-                    <ul class="clints-body">
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
-                    </ul>
-                </div>
-            </div>
         </section>
 
     </main>
 </body>
 <script src="js/index.js"></script>
+<script src="js/language.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
