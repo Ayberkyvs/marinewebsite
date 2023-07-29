@@ -8,7 +8,6 @@ function run() {
 }
 
 function addDemo(e) {
-  window.location.reload(true);
   setTimeout(() => {
     demodiv.forEach((x) => {
       x.classList.remove("hidden");
