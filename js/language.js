@@ -4,6 +4,8 @@ const languageSelectorMobile = document.querySelector(
 );
 const langTr = document.querySelectorAll(".langTr");
 const langEn = document.querySelectorAll(".langEn");
+const bannerSloganEn = document.querySelector(".banner-slogan-en");
+const bannerSloganTr = document.querySelector(".banner-slogan-tr");
 
 run();
 
@@ -30,6 +32,7 @@ function getLang(e) {
   const language = e.target.dataset.use;
   Localization(language);
   setToLocalStorage(language);
+  setBannerSlogan(language);
 }
 
 function checkLocalStorage() {
@@ -40,10 +43,19 @@ function checkLocalStorage() {
     return "tr";
   } else {
     setToLocalStorage(lang);
+    setBannerSlogan(lang);
     return lang;
   }
 }
-
+function setBannerSlogan(lang) {
+  if (lang === "en") {
+    bannerSloganEn.style.display = "flex";
+    bannerSloganTr.style.display = "none";
+  } else {
+    bannerSloganEn.style.display = "none";
+    bannerSloganTr.style.display = "flex";
+  }
+}
 function setToLocalStorage(language) {
   localStorage.setItem("lang", `${language}`);
   setToUI(language);

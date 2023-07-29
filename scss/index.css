@@ -32,6 +32,7 @@
   font-weight: 200 !important;
   transform: translate(-50%, -50%);
   color: white;
+  background-color: transparent;
 }
 .banner-wrapper .banner-slogan span {
   font-weight: 600;
@@ -40,6 +41,9 @@
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+.banner-wrapper .banner-slogan .banner-slogan-en {
+  display: none;
 }
 
 .clients-wrapper {
@@ -468,6 +472,7 @@ html {
 .services-wrapper .services-body .services-item h6 {
   font-size: 20px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 @media screen and (max-width: 800px) {

@@ -29,6 +29,7 @@
     font-weight: 200 !important;
     transform: translate(-50%, -50%);
     color: white;
+    background-color: transparent;
     span {
       font-weight: 600;
       font-size: 80px;
@@ -36,6 +37,9 @@
       -webkit-background-clip: text;
       background-clip: text;
       color: transparent;
+    }
+    .banner-slogan-en {
+      display: none;
     }
   }
 }
