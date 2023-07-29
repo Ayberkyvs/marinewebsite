@@ -101,6 +101,10 @@ html {
   font-family: "Inter", sans-serif;
 }
 
+* {
+  font-family: "Inter", sans-serif;
+}
+
 .header {
   position: fixed;
   justify-content: center;
@@ -155,6 +159,10 @@ html {
   align-items: center;
   box-sizing: border-box;
 }
+.inner-header ul li.active {
+  background-color: rgba(0, 47, 108, 0.12);
+  border-bottom: 1px solid #002f6c;
+}
 .inner-header ul li:hover {
   background-color: rgba(0, 47, 108, 0.12);
   border-bottom: 1px solid #002f6c;
@@ -173,16 +181,41 @@ html {
   justify-content: center;
   align-items: center;
 }
-.languageSelector h3 {
+.languageSelector div {
   margin: 0;
   font-size: 14px;
 }
-.languageSelector h3 a {
+.languageSelector div button {
   color: #002f6c;
-  margin: 5px;
+  margin: 3px;
+  width: auto;
+  background-color: transparent;
+  border: none;
+  outline: none;
 }
-.languageSelector h3 span {
+.languageSelector div span {
   color: #002f6c;
+}
+
+.languageSelectorMobile {
+  width: auto;
+  height: auto !important;
+}
+.languageSelectorMobile div button {
+  color: rgb(255, 255, 255);
+}
+.languageSelectorMobile div span {
+  color: white;
+}
+
+.langTr.selected {
+  color: red !important;
+  border-bottom: 1px solid red;
+}
+
+.langEn.selected {
+  color: blue !important;
+  border-bottom: 1px solid blue;
 }
 
 .pageActive2 {
@@ -215,9 +248,8 @@ html {
 .header-2 .hamburger-line {
   background-color: white;
 }
-
-.selected {
-  color: rgb(255, 65, 65) !important;
+.header-2 .languageSelector button {
+  color: white;
 }
 
 /* width */
@@ -331,11 +363,14 @@ html {
 }
 
 @media screen and (max-width: 800px) {
+  .languageSelectorMobile {
+    display: inline-flex !important;
+  }
   .header {
     height: 60px;
   }
   .inner-header .logo-wrapper {
-    width: 100px;
+    width: 110px;
   }
   .navigation {
     display: none;
@@ -345,5 +380,98 @@ html {
   }
   .hamburger-menu {
     display: flex;
+  }
+}
+.aboutus-wrapper {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 50px;
+  text-align: center;
+  color: white;
+  background-color: #002f6c;
+}
+.aboutus-wrapper .aboutus-heading {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.aboutus-wrapper .aboutus-heading h6 {
+  font-size: 20px;
+}
+.aboutus-wrapper .aboutus-heading h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.aboutus-wrapper .aboutus-heading p {
+  font-size: 18px;
+  text-align: justify;
+  font-weight: 300;
+}
+
+.services-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 50px;
+}
+.services-wrapper .services-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+.services-wrapper .services-heading h6 {
+  font-size: 20px;
+}
+.services-wrapper .services-heading h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.services-wrapper .services-body {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.services-wrapper .services-body .services-item {
+  width: 45%;
+  margin-bottom: 50px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services-wrapper .services-body .services-item i {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: black;
+}
+.services-wrapper .services-body .services-item p {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 300;
+}
+.services-wrapper .services-body .services-item h6 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .services-item {
+    width: 100% !important;
   }
 }/*# sourceMappingURL=index.css.map */

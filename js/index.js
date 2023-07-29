@@ -5,13 +5,15 @@ const text = document.querySelector(".banner-slogan");
 const hamburgerMenu = document.querySelector(".hamburger-menu");
 const hamburgerMenuLine = document.querySelectorAll(".hamburger-line");
 const menu = document.querySelector(".menu");
-
+const menuLinks = document.querySelectorAll('a[href^="#"]');
 run();
+// Menü bağlantılarına tıklandığında yavaşça kayarak gitme
 
 function run() {
   document.addEventListener("scroll", handleScroll);
   document.addEventListener("DOMContentLoaded", contentLoaded);
   hamburgerMenu.addEventListener("click", toggleMenu);
+  jQuery(document).ready(menuLinksScrollHandler);
 }
 function handleScroll() {
   if (window.scrollY <= 0) {
@@ -105,19 +107,34 @@ function toggleMenu() {
   popup.style.display = popupVisible ? "block" : "none";
 
   if (popupVisible) {
-    // Pop-up açıldığında, sayfanın scroll işlemini durdur
-    document.body.style.overflow = "hidden";
+    // document.body.style.overflow = "hidden";
     hamburgerMenuLine.forEach((x) => {
       x.classList.add("hamburger-line-white");
     });
 
     setTimeout(() => menu.classList.add("showw"), 10);
   } else {
-    // Pop-up kapatıldığında, sayfanın scroll işlemini tekrar etkinleştir
-    document.body.style.overflow = "auto";
+    // document.body.style.overflow = "auto";
     hamburgerMenuLine.forEach((x) => {
       x.classList.remove("hamburger-line-white");
     });
     menu.classList.remove("showw");
   }
+}
+
+function menuLinksScrollHandler($) {
+  function scrollToSection(event) {
+    if (isOpen) {
+      toggleMenu();
+    }
+    event.preventDefault();
+    var $section = $($(this).attr("href"));
+    $("html, body").animate(
+      {
+        scrollTop: $section.offset().top - 60,
+      },
+      500
+    );
+  }
+  $("[data-scroll]").on("click", scrollToSection);
 }

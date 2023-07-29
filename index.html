@@ -32,22 +32,30 @@ https://ayberkyavas.com
     <meta name="msapplication-TileColor" content="#2b5797">
     <meta name="theme-color" content="#002f6c">
 
+
+    <link href="assets/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="assets/fontawesome/css/brands.css" rel="stylesheet">
+    <link href="assets/fontawesome/css/solid.css" rel="stylesheet">
+    <script src="node_modules/jQuery/tmp/jquery.js"></script>
+
     <title>Pinyin Marine AS</title>
 </head>
 
-<body>
+<body id="body">
     <div class="loader"></div>
     <!--==============Header Section Begins===================-->
     <header class="header">
         <div class="inner-header">
-            <div class="logo-wrapper"><a href="index.html"><img src="img/bluelogo.svg" alt="Pinyin Logo"
+            <div class="logo-wrapper"><a data-scroll href="#body"><img src="img/bluelogo.svg" alt="Pinyin Logo"
                         class="mainLogo"></a>
             </div>
             <nav class="navigation">
                 <ul>
-                    <li class="menu-item-li"><a href="#" class="menu-item-link" data-language="aboutus">Hakkımızda</a>
+                    <li class="menu-item-li"><a data-scroll href="#aboutus" class="menu-item-link"
+                            data-language="aboutus">Hakkımızda</a>
                     </li>
-                    <li class="menu-item-li"><a href="#" class="menu-item-link" data-language="services">Servisler</a>
+                    <li class="menu-item-li"><a data-scroll href="#services" class="menu-item-link"
+                            data-language="services">Servisler</a>
                     </li>
                     <li class="menu-item-li"><a href="#" class="menu-item-link" data-language="products">Ürünler</a>
                     </li>
@@ -56,7 +64,9 @@ https://ayberkyavas.com
                 </ul>
             </nav>
             <div class="languageSelector">
-                <h3><a class="selected" data-use="tr">TR</a><span>|</span><a data-use="en">EN</a></h3>
+                <div><button class="langTr selected" data-use="tr">TR</button><span>|</span><button class="langEn"
+                        data-use="en">EN</button>
+                </div>
             </div>
             <div class="hamburger-menu">
                 <div class="hamburger-line"></div>
@@ -70,15 +80,21 @@ https://ayberkyavas.com
             <div class="menu">
                 <!-- Menü içeriği buraya gelecek -->
                 <ul>
-                    <li><a href="#" data-language="aboutus2">Hakkımızda</a></li>
-                    <li><a href="#" data-language="services2">Servisler</a></li>
+                    <li><a data-scroll href="#aboutus" data-language="aboutus2">Hakkımızda</a></li>
+                    <li><a data-scroll href="#services" data-language="services2">Servisler</a></li>
                     <li><a href="#" data-language="products2">Ürünler</a></li>
                     <li><a href="#" data-language="contactus2">İletişim</a></li>
                     <!-- Diğer menü öğeleri eklenebilir -->
+                    <div class="languageSelector languageSelectorMobile">
+                        <div>
+                            <button class="langTr selected" data-use="tr">TR</button>
+                            <span>|</span>
+                            <button class="langEn" data-use="en">EN</button>
+                        </div>
+                    </div>
                 </ul>
             </div>
         </div>
-        <!--=======Mobile Menu -->
     </header>
 
     <!--==============Header Section Ends===================-->
@@ -96,7 +112,77 @@ https://ayberkyavas.com
                 <img src="img/bg.png" alt="Banner">
             </div>
         </section>
-        <section>
+        <section id="aboutus">
+            <div class="aboutus-wrapper">
+                <div class="aboutus-heading">
+                    <h6 data-language="aboutus-caption">Bizi Tanıyın</h6>
+                    <h2 data-language="aboutus-title">Hakkımızda</h2>
+                    <p data-language="aboutus-paragraph">Pinyin Marine 2022 yılında tam kapasite hizmet vermeye başlayan
+                        kurumsal bir firmadır. Denizcilik hizmetleri, çözümleri
+                        ve desteği sağlayarak müşteri ihtiyaç ve beklentilerini karşılamayı taahhüt ediyoruz.</p>
+                </div>
+            </div>
+        </section>
+        <section id="services">
+            <div class="services-wrapper">
+                <div class="services-heading">
+                    <h6 data-language="services-caption">En İyisini Sunuyoruz!</h6>
+                    <h2 data-language="services-title">Servisler</h2>
+                </div>
+                <div class="services-body">
+                    <div class="services-item">
+                        <i class="fa-regular fa-lightbulb"></i>
+                        <h6 data-language="services-item1-title">Deniz Aydınlatma</h6>
+                        <p data-language="services-item1-paragraph">Pinyin Marine olarak, denizcilik sektöründe kapsamlı
+                            aydınlatma çözümleri sunuyoruz. Gemiler,
+                            yatlar, tekneler ve
+                            diğer deniz araçları için özelleştirilmiş aydınlatma sistemleri tasarlayarak,
+                            müşterilerimizin güvenli ve konforlu bir
+                            seyir deneyimi yaşamasına yardımcı oluyoruz.</p>
+                    </div>
+                    <div class="services-item">
+                        <i class="fa-solid fa-plug"></i>
+                        <h6 data-language="services-item2-title">Deniz Konnektörü</h6>
+                        <p data-language="services-item2-paragraph">Denizcilik endüstrisi, gemiler, yatlar, tekneler ve
+                            diğer deniz araçları için güvenilir ve
+                            suya dayanıklı bağlantı
+                            elemanlarına ihtiyaç duyar. Pinyin Marine olarak, yılların verdiği deneyimle, denizcilik
+                            standartlarına uygun ve
+                            deniz koşullarına dayanıklı bağlantı çözümleri sunmaktayız.</p>
+                    </div>
+                    <div class="services-item">
+                        <i class="fa-solid fa-star-of-life"></i>
+                        <h6 data-language="services-item3-title">Hayat Kurtarma ve Yangın Söndürme</h6>
+                        <p data-language="services-item3-paragraph">Hayat kurtarma ekipmanları, deniz kazalarında
+                            insanların güvenli bir şekilde tahliye edilmesi
+                            ve kurtarılması için
+                            kritik öneme sahiptir. Yangın söndürme ekipmanları ise yangın durumlarında hızlı müdahale ve
+                            kontrol altına alma
+                            süreçlerinde hayati rol oynar. Amacımız, denizcilik sektöründe çalışanların ve yolcuların
+                            güvenliğini sağlamak için en
+                            son teknoloji ve standartlara uygun hayat kurtarma ve yangın söndürme ekipmanları sunmaktır.
+                        </p>
+                    </div>
+                    <div class="services-item">
+                        <i class="fa-solid fa-code-compare"></i>
+                        <h6 data-language="services-item4-title">Yedek Parça</h6>
+                        <p data-language="services-item4-paragraph">Deniz araçları ve liman tesisleri, düzenli bakım ve
+                            zaman içinde kullanılan parçaların
+                            değiştirilmesiyle verimli bir
+                            şekilde çalışır. Yedek parçalar, araçların ve ekipmanların performansını optimize etmek,
+                            arızaları en aza indirmek ve iş
+                            gücü verimliliğini artırmak için hayati öneme sahiptir. Amacımız, müşterilerimize en hızlı
+                            ve güvenilir şekilde yedek
+                            parça sağlayarak, onların iş süreçlerini kesintiye uğratmamak ve operasyonel maliyetlerini
+                            minimize etmektir.</p>
+                    </div>
+                    <!-- <div class="services-item">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum vitae consequuntur dolorum
+                            magnam ad possimus earum dolores dicta aperiam. Asperiores quidem magni eveniet, assumenda
+                            nesciunt labore aut maiores tenetur nostrum!</p>
+                    </div> -->
+                </div>
+            </div>
         </section>
 
     </main>
