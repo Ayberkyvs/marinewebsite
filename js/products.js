@@ -1,20 +1,12 @@
-// AJAX ile verileri PHP'den alıp işleyelim
-var xmlhttp = new XMLHttpRequest();
-xmlhttp.onreadystatechange = function () {
-  if (this.readyState == 4 && this.status == 200) {
-    var productsData = JSON.parse(this.responseText);
-    displayProducts(productsData);
-  }
-};
-const currentDomain = window.location.host;
-xmlhttp.open("GET", "https://pinyin-marine.com/php/connect.php", true);
-xmlhttp.send();
-
-// Verileri ekrana yazdıralım
-function displayProducts(productsData) {
-  for (var i = 0; i < productsData.length; i++) {
-    var product = productsData[i];
-    console.log("Product Name: " + product.product_name + "<br>");
-    console.log("Price: " + product.price + "<br>");
-  }
-}
+axios
+  .get("https://pinyin-marine.com/php/connect.php") // PHP dosyanızın yolunu doğru şekilde belirtin
+  .then(function (response) {
+    // Başarılı olduğunda çalışacak fonksiyon
+    // JSON verilerini işleme
+    var jsonData = JSON.stringify(response.data); // Gelen JSON verilerini string'e çevirme
+    console.log(jsonData); // Verileri sayfada gösterme
+  })
+  .catch(function (error) {
+    // Hata durumunda çalışacak fonksiyon
+    console.log("Hata: ", error);
+  });
