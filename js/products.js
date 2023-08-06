@@ -3,7 +3,7 @@ function run() {
 }
 async function getRequest() {
   const products = await axios.get(
-    "http://pinyin-marine.com/products/data.json"
+    "https://pinyin-marine.com/products/data.json"
   );
   console.log(products);
   return products;
