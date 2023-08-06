@@ -1,16 +1,5 @@
 {
   "products": [
-    {
-      "id": 1,
-      "img": "https://picsum.photos/500/300",
-      "title": "deneme",
-      "paragraph": "Merhaba nasolsın"
-    },
-    {
-      "id": 2,
-      "img": "https://picsum.photos/500/300",
-      "title": "deneme2",
-      "paragraph": "Merasdasdasdhaba nasolsın"
-    }
+    { "id": 1, "title": "deneme", "description": "tasdasdasdasdypicode" }
   ]
 }
