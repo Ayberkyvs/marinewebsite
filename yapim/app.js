@@ -6,7 +6,6 @@ function run() {
   body.addEventListener("click", hideAll);
   document.addEventListener("DOMContentLoaded", addDemo);
 }
-
 function addDemo(e) {
   setTimeout(() => {
     demodiv.forEach((x) => {

@@ -479,4 +479,86 @@ html {
   .services-item {
     width: 100% !important;
   }
+}
+.products-wrapper {
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  font-family: "Inter", sans-serif;
+}
+.products-wrapper .products-heading {
+  width: 100%;
+  text-align: center;
+}
+.products-wrapper .products-heading h6 {
+  font-size: 20px;
+}
+.products-wrapper .products-heading h2 {
+  font-size: 40px;
+}
+.products-wrapper .products-body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  border: 1px solid red;
+}
+
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 0;
+}
+
+.carousel-inner {
+  padding: 1em;
+}
+
+.carousel-heading {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+.carousel-heading h3 {
+  color: black;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
+.carousel-heading hr {
+  width: 100%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: black;
+  width: 5vh !important;
+  height: 5vh !important;
+  display: flex;
+  border-radius: 50%;
+  position: absolute !important;
+  top: 50% !important;
+  transform: translateY(-50%);
+}
+
+@media (min-width: 768px) {
+  .card img {
+    height: 11em;
+  }
 }/*# sourceMappingURL=index.css.map */
