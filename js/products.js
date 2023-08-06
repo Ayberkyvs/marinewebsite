@@ -1,12 +1,13 @@
-axios
-  .get("connect.php") // PHP dosyanızın yolunu doğru şekilde belirtin
-  .then(function (response) {
-    // Başarılı olduğunda çalışacak fonksiyon
+async function veriCek() {
+  try {
+    const response = await fetch("data.json");
+    const data = await response.json();
+
     // JSON verilerini işleme
-    var jsonData = JSON.stringify(response.data); // Gelen JSON verilerini string'e çevirme
-    console.log(jsonData); // Verileri sayfada gösterme
-  })
-  .catch(function (error) {
-    // Hata durumunda çalışacak fonksiyon
-    console.log("Hata: ", error);
-  });
+    // Örneğin, verileri ekrana yazdırma:
+    console.log(data);
+  } catch (error) {
+    console.error("Veri çekme hatası:", error);
+  }
+}
+veriCek();
