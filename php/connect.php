@@ -27,10 +27,13 @@ if ($result->num_rows > 0) {
         $productsArray[] = $row;
     }
 
-    // Now $productsArray contains all the rows as an array
-    print_r($productsArray);
+    // Convert the PHP array to JSON format
+    $productsJson = json_encode($productsArray);
+
+    // Send the JSON data back to JavaScript
+    echo $productsJson;
 } else {
-    echo "No products found!";
+    echo "[]"; // Empty array if no products found
 }
 
 // Close the connection
