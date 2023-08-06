@@ -1,5 +1,5 @@
 axios
-  .get("/php/connect.php") // PHP dosyanızın yolunu doğru şekilde belirtin
+  .get("connect.php") // PHP dosyanızın yolunu doğru şekilde belirtin
   .then(function (response) {
     // Başarılı olduğunda çalışacak fonksiyon
     // JSON verilerini işleme
