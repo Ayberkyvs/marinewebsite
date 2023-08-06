@@ -1,6 +1,6 @@
 async function veriCek() {
   try {
-    const response = await fetch("/data.json");
+    const response = await fetch("/products/data.json");
     const data = await response.json();
 
     // JSON verilerini işleme
