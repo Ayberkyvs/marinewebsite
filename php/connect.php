@@ -12,7 +12,7 @@ try {
     $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     // Tablodan verileri almak için bir sorgu yapın
-    $sql = "SELECT * FROM tablo_adi"; // "tablo_adi" yerine işlem yapmak istediğiniz tablonun adını yazın
+    $sql = "SELECT * FROM products"; // "tablo_adi" yerine işlem yapmak istediğiniz tablonun adını yazın
     $stmt = $dbh->prepare($sql);
     $stmt->execute();
 
