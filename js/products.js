@@ -7,7 +7,7 @@ xmlhttp.onreadystatechange = function () {
   }
 };
 const currentDomain = window.location.host;
-xmlhttp.open("GET", "http://" + currentDomain + "php/connect.php", true);
+xmlhttp.open("GET", "http://" + currentDomain + "/php/connect.php", true);
 xmlhttp.send();
 
 // Verileri ekrana yazdıralım
