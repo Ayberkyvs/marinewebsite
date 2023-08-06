@@ -1,41 +1,31 @@
 <?php
-$servername = "154.49.245.1";
-$username = "u681468163_admin";
-$password = "Ayberk123";
-$database = "u681468163_pinyin";
+$host = "154.49.245.1";
+$user = "u681468163_admin";
+$pass = "Ayberk123";
+$db = "u681468163_pinyin";
 
-// Create a connection
-$conn = mysqli_connect($servername, $username, $password, $database);
+try {
+    // PDO ile veritabanına bağlanma
+    $dbh = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
 
-// Check the connection
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
+    // Hata modunu ayarlama
+    $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+    // Tablodan verileri almak için bir sorgu yapın
+    $sql = "SELECT * FROM tablo_adi"; // "tablo_adi" yerine işlem yapmak istediğiniz tablonun adını yazın
+    $stmt = $dbh->prepare($sql);
+    $stmt->execute();
+
+    // Verileri bir dizi olarak alın
+    $data = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+    // Verileri JSON formatına dönüştürün
+    $json_data = json_encode($data);
+
+    // JSON verilerini yazdırın
+    echo $json_data;
+} catch (PDOException $e) {
+    // Hata durumunda hata mesajını yakalayın
+    echo "Hata: " . $e->getMessage();
 }
-
-echo "Connected successfully!";
-// Query to fetch data from the "products" table
-$sql = "SELECT * FROM products";
-$result = $conn->query($sql);
-
-// Check if there are any rows returned
-if ($result->num_rows > 0) {
-    // Initialize an empty array to store the data
-    $productsArray = array();
-
-    // Loop through each row and fetch the data
-    while ($row = $result->fetch_assoc()) {
-        $productsArray[] = $row;
-    }
-
-    // Convert the PHP array to JSON format
-    $productsJson = json_encode($productsArray);
-
-    // Send the JSON data back to JavaScript
-    echo $productsJson;
-} else {
-    echo "[]"; // Empty array if no products found
-}
-
-// Close the connection
-$conn->close();
 ?>
