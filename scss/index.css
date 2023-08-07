@@ -521,6 +521,9 @@ html {
   box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
   border: none;
   border-radius: 0;
+  border: 1px solid red !important;
+  width: 20%;
+  height: auto;
 }
 
 .carousel-inner {
@@ -537,7 +540,8 @@ html {
 }
 .carousel-heading h3 {
   color: black;
-  font-size: 30px;
+  font-size: 20px;
+  font-weight: 500;
   margin: 0;
   padding: 0;
 }
@@ -557,8 +561,16 @@ html {
   transform: translateY(-50%);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   .card img {
     height: 11em;
+  }
+}
+@media (max-width: 800px) {
+  .products-wrapper {
+    padding: 0;
+  }
+  .card {
+    width: 100% !important;
   }
 }/*# sourceMappingURL=index.css.map */

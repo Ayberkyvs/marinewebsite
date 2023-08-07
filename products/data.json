@@ -1,5 +1,142 @@
-{
-  "products": [
-    { "id": 1, "title": "deneme", "description": "tasdasdasdasdypicode" }
-  ]
-}
+[
+  {
+    "id": 1,
+    "image": "https://picsum.photos/500/300",
+    "title": "Işık 1",
+    "description": "Profesyonel futbol topu, sahada harika performans sağlar.",
+    "category": "light"
+  },
+  {
+    "id": 2,
+    "image": "https://picsum.photos/500/300",
+    "title": "Işık 2",
+    "description": "Yüksek çözünürlüklü ekran ve güçlü işlemciye sahip akıllı telefon.",
+    "category": "light"
+  },
+  {
+    "id": 3,
+    "image": "https://picsum.photos/500/300",
+    "title": "Işık 3",
+    "description": "Eğlenceli bir şekilde partiye renk katacak komik maskara.",
+    "category": "light"
+  },
+  {
+    "id": 4,
+    "image": "https://picsum.photos/500/300",
+    "title": "Işık 4",
+    "description": "Yumuşak ve kaymaz yüzeyi ile rahatlatıcı yoga matı.",
+    "category": "light"
+  },
+  {
+    "id": 5,
+    "image": "https://picsum.photos/500/300",
+    "title": "Mutfak Robotu",
+    "description": "Çeşitli mutfak işlemleri için kullanılabilen çok amaçlı robot.",
+    "category": "Ev Aletleri"
+  },
+  {
+    "id": 6,
+    "image": "https://picsum.photos/500/300",
+    "title": "Roman Kitabı",
+    "description": "En çok satan bir roman kitabı, sürükleyici bir hikaye sunar.",
+    "category": "Kitaplar"
+  },
+  {
+    "id": 7,
+    "image": "https://picsum.photos/500/300",
+    "title": "Gözlük",
+    "description": "Şık tasarımlı güneş gözlüğü, UV koruması sunar.",
+    "category": "Moda"
+  },
+  {
+    "id": 8,
+    "image": "https://picsum.photos/500/300",
+    "title": "Çiçek Buketi",
+    "description": "Renkli çiçeklerden oluşan güzel bir buket.",
+    "category": "Hediyelik Eşyalar"
+  },
+  {
+    "id": 9,
+    "image": "https://picsum.photos/500/300",
+    "title": "Hafıza Kartı",
+    "description": "Yüksek kapasiteli hafıza kartı, fotoğraflarınızı saklar.",
+    "category": "Elektronik"
+  },
+  {
+    "id": 10,
+    "image": "https://picsum.photos/500/300",
+    "title": "Koşu Ayakkabısı",
+    "description": "Konforlu ve destekleyici koşu ayakkabısı.",
+    "category": "Spor"
+  },
+  {
+    "id": 11,
+    "image": "https://picsum.photos/500/300",
+    "title": "Kulaklık",
+    "description": "Yüksek kaliteli kablosuz kulaklık, etkileyici ses deneyimi sunar.",
+    "category": "Teknoloji"
+  },
+  {
+    "id": 12,
+    "image": "https://picsum.photos/500/300",
+    "title": "Karaoke Mikrofonu",
+    "description": "Ev partileri için eğlenceli karaoke mikrofonu.",
+    "category": "Eğlence"
+  },
+  {
+    "id": 13,
+    "image": "https://picsum.photos/500/300",
+    "title": "Fitness Bileziği",
+    "description": "Adım sayma ve kalp atış hızını ölçen akıllı fitness bileziği.",
+    "category": "Sağlık ve Fitness"
+  },
+  {
+    "id": 14,
+    "image": "https://picsum.photos/500/300",
+    "title": "Mikrodalga Fırın",
+    "description": "Hızlı yemek ısıtma için kullanışlı mikrodalga fırın.",
+    "category": "Ev Aletleri"
+  },
+  {
+    "id": 15,
+    "image": "https://picsum.photos/500/300",
+    "title": "Bilim Kurgu Kitabı",
+    "description": "Uzak gelecekte geçen bir bilim kurgu romanı.",
+    "category": "Kitaplar"
+  },
+  {
+    "id": 16,
+    "image": "https://picsum.photos/500/300",
+    "title": "Deri Cüzdan",
+    "description": "Şık ve dayanıklı deri cüzdan, kart ve para saklamak için ideal.",
+    "category": "Moda"
+  },
+  {
+    "id": 17,
+    "image": "https://picsum.photos/500/300",
+    "title": "Doğum Günü Balonları",
+    "description": "Renkli balonlarla süslenmiş doğum günü partisi için dekorasyon seti.",
+    "category": "Hediyelik Eşyalar"
+  },
+  {
+    "id": 18,
+    "image": "https://picsum.photos/500/300",
+    "title": "Kamera",
+    "description": "Yüksek çözünürlüklü fotoğraf ve video çekimi için profesyonel kamera.",
+    "category": "Elektronik"
+  },
+  {
+    "id": 19,
+    "image": "https://picsum.photos/500/300",
+    "title": "Yüzme Gözlüğü",
+    "description": "Su altında net görüş sağlayan yüzme gözlüğü.",
+    "category": "Spor"
+  },
+  {
+    "id": 20,
+    "image": "https://picsum.photos/500/300",
+    "title": "Kablosuz Hoparlör",
+    "description": "Taşınabilir kablosuz hoparlör, müziği her yere götürmenizi sağlar.",
+    "category": "Teknoloji"
+  }
+]
