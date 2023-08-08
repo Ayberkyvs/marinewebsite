@@ -3,71 +3,83 @@
     "id": 1,
     "image": "https://picsum.photos/500/300",
     "title": "Işık 1",
+    "titleEn": "Light 1",
     "description": "Profesyonel futbol topu, sahada harika performans sağlar.",
-    "category": "light"
+    "descriptionEn": "English 212312",
+    "category": "Light"
   },
   {
     "id": 2,
     "image": "https://picsum.photos/500/300",
     "title": "Işık 2",
+    "titleEn": "Light 2",
     "description": "Yüksek çözünürlüklü ekran ve güçlü işlemciye sahip akıllı telefon.",
-    "category": "light"
+    "descriptionEn": "english 1213123",
+    "category": "Light"
   },
   {
     "id": 3,
     "image": "https://picsum.photos/500/300",
     "title": "Işık 3",
+    "titleEn": "Light 3",
     "description": "Eğlenceli bir şekilde partiye renk katacak komik maskara.",
-    "category": "light"
+    "descriptionEn": "english 1213123",
+    "category": "Light"
   },
   {
     "id": 4,
     "image": "https://picsum.photos/500/300",
     "title": "Işık 4",
+    "titleEn": "Light 4",
     "description": "Yumuşak ve kaymaz yüzeyi ile rahatlatıcı yoga matı.",
-    "category": "light"
+    "descriptionEn": "english 1213123",
+    "category": "Light"
   },
   {
     "id": 5,
     "image": "https://picsum.photos/500/300",
-    "title": "Mutfak Robotu",
+    "title": " 5",
+    "titleEn": "Light 5",
     "description": "Çeşitli mutfak işlemleri için kullanılabilen çok amaçlı robot.",
-    "category": "Ev Aletleri"
+    "descriptionEn": "english 1213123",
+    "category": "Light"
   },
   {
     "id": 6,
     "image": "https://picsum.photos/500/300",
-    "title": "Roman Kitabı",
+    "title": "Işık 6",
+    "titleEn": "Light 6",
     "description": "En çok satan bir roman kitabı, sürükleyici bir hikaye sunar.",
-    "category": "Kitaplar"
+    "descriptionEn": "english 1213123",
+    "category": "Light"
   },
   {
     "id": 7,
     "image": "https://picsum.photos/500/300",
     "title": "Gözlük",
     "description": "Şık tasarımlı güneş gözlüğü, UV koruması sunar.",
-    "category": "Moda"
+    "category": "Connector"
   },
   {
     "id": 8,
     "image": "https://picsum.photos/500/300",
     "title": "Çiçek Buketi",
     "description": "Renkli çiçeklerden oluşan güzel bir buket.",
-    "category": "Hediyelik Eşyalar"
+    "category": "Life Saving"
   },
   {
     "id": 9,
     "image": "https://picsum.photos/500/300",
     "title": "Hafıza Kartı",
     "description": "Yüksek kapasiteli hafıza kartı, fotoğraflarınızı saklar.",
-    "category": "Elektronik"
+    "category": "Spare Parts"
   },
   {
     "id": 10,
     "image": "https://picsum.photos/500/300",
     "title": "Koşu Ayakkabısı",
     "description": "Konforlu ve destekleyici koşu ayakkabısı.",
-    "category": "Spor"
+    "category": "Connector"
   },
   {
     "id": 11,

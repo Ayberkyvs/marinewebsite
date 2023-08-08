@@ -44,6 +44,7 @@ function checkLocalStorage() {
   } else {
     setToLocalStorage(lang);
     setBannerSlogan(lang);
+    setLangToProducts(lang);
     return lang;
   }
 }
@@ -77,6 +78,24 @@ function setToUI(language) {
       x.classList.add("selected");
     }
   }
+}
+function setLangToProducts(lang) {
+  // const cardTitleEn = document.querySelectorAll(".card-title-en");
+  // const cardTextEn = document.querySelectorAll(".card-text-en");
+  // const cardTitle = document.querySelectorAll(".card-title");
+  // const cardText = document.querySelectorAll(".card-text");
+  // if (lang === "tr") {
+  //   cardTitleEn.forEach((x) => (x.style.display = "none"));
+  //   cardTextEn.forEach((x) => (x.style.display = "none"));
+  //   cardTitle.forEach((x) => (x.style.display = "flex"));
+  //   cardText.forEach((x) => (x.style.display = "flex"));
+  // }
+  // if (lang === "en") {
+  //   cardTitle.forEach((x) => (x.style.display = "none"));
+  //   cardText.forEach((x) => (x.style.display = "none"));
+  //   cardTitleEn.forEach((x) => (x.style.display = "flex"));
+  //   cardTextEn.forEach((x) => (x.style.display = "flex"));
+  // }
 }
 
 //* Kullanıcının dil tercihini Local Storage de kaydet sayfa yenilendiğinde otomatik gelsin.

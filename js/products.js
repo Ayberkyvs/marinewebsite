@@ -1,33 +1,124 @@
-veriCek();
+const langTrBtn = document.querySelector(".langTr");
+const langEnBtn = document.querySelector(".langEn");
+// const elementToDelete = document.querySelectorAll(".carousel-item");
+
+Loaded();
+
+function Loaded() {
+  document.addEventListener("DOMContentLoaded", veriCek);
+  langTrBtn.addEventListener("click", languageHandleChange);
+  langEnBtn.addEventListener("click", languageHandleChange);
+}
+function languageHandleChange() {
+  window.location.reload();
+}
 async function veriCek() {
   try {
     const response = await fetch("/products/data.json");
     const data = await response.json();
-
-    // JSON verilerini işleme
-    // Örneğin, verileri ekrana yazdırma:
-    addToUI(data);
+    categorizeData(data);
   } catch (error) {
     console.error("Veri çekme hatası:", error);
   }
 }
-
+function categorizeData(data) {
+  if (data.length > 0) {
+    for (let i = 0; i < data.length; i++) {
+      if (data[i].category === "Light") {
+        LightList.push(data[i]);
+      }
+      if (data[i].category === "Connector") {
+        ConnectorList.push(data[i]);
+      }
+      if (data[i].category === "Life Saving") {
+        LifeSavingList.push(data[i]);
+      }
+      if (data[i].category === "Spare Parts") {
+        SparePartsList.push(data[i]);
+      }
+    }
+    addToUI(LightList, 0);
+    addToUI(ConnectorList, 1);
+    addToUI(LifeSavingList, 2);
+    addToUI(SparePartsList, 3);
+  } else {
+    console.error("Veri Yok");
+  }
+}
 const LightList = [];
-function addToUI(data) {
-  for (let i = 0; i < data.length; i++) {
-    if (data[i].category === "light") {
-      LightList.push(data[i]);
+const ConnectorList = [];
+const LifeSavingList = [];
+const SparePartsList = [];
+function addToUI(data, index) {
+  if (data.length > 0) {
+    const carouselInner = document.querySelectorAll(".carousel-inner")[index];
+
+    let activeCarouselItem = true;
+
+    for (let i = 0; i < data.length; i += 5) {
+      const carouselItem = document.createElement("div");
+      carouselItem.className =
+        "carousel-item" + (activeCarouselItem ? " active" : "");
+      const cardsWrapper = document.createElement("div");
+      cardsWrapper.className = "cards-wrapper";
+      carouselItem.appendChild(cardsWrapper);
+      carouselInner.appendChild(carouselItem);
+
+      for (let j = i; j < i + 5 && j < data.length; j++) {
+        const card = createCard(
+          data[j].title,
+          data[j].titleEn,
+          data[j].image,
+          data[j].description,
+          data[j].descriptionEn,
+          j === i
+        );
+        cardsWrapper.appendChild(card);
+      }
+
+      activeCarouselItem = false;
     }
   }
-  addToLightSection(LightList);
 }
-function addToLightSection(data) {
-  const image = document.querySelectorAll(".light-image");
-  const title = document.querySelectorAll(".light-title");
-  const text = document.querySelectorAll(".light-text");
-  for (let i = 0; i < data.length; i++) {
-    title[i].innerHTML = data[i].title;
-    image[i].src = data[i].image;
-    text[i].innerHTML = data[i].description;
+
+function createCard(
+  title,
+  titleEn,
+  image,
+  description,
+  descriptionEn,
+  isFirstCard
+) {
+  const lang = checkLocalStorage();
+  const card = document.createElement("div");
+  const cardBody = document.createElement("div");
+  const img = document.createElement("img");
+  const cardTitle = document.createElement("h5");
+  const cardText = document.createElement("p");
+  card.className = "card";
+  if (!isFirstCard) {
+    card.classList.add("d-none", "d-md-block");
   }
+  cardBody.className = "card-body";
+  img.className = "card-img-top";
+  cardTitle.className = "card-title";
+  cardText.className = "card-text";
+  img.src = image;
+  if (lang === "tr") {
+    cardTitle.innerHTML = title;
+    cardText.innerHTML = description;
+  } else {
+    cardTitle.innerHTML = titleEn;
+    cardText.innerHTML = descriptionEn;
+  }
+  cardBody.appendChild(cardTitle);
+  cardBody.appendChild(cardText);
+  card.appendChild(img);
+  card.appendChild(cardBody);
+  return card;
 }
+function checkLocalStorage() {
+  return localStorage.getItem("lang");
+}
+
+//? DİL DEĞİŞTİRİLDİĞİ ZAMAN ÜRÜNLERİN DİLİ SAYFAYI YENİLEMEDEN DEĞİŞMİYOR.
