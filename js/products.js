@@ -49,6 +49,7 @@ const LightList = [];
 const ConnectorList = [];
 const LifeSavingList = [];
 const SparePartsList = [];
+
 function addToUI(data, index) {
   if (data.length > 0) {
     const carouselInner = document.querySelectorAll(".carousel-inner")[index];

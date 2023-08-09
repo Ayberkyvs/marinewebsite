@@ -2,153 +2,262 @@
   {
     "id": 1,
     "image": "https://picsum.photos/500/300",
-    "title": "Işık 1",
-    "titleEn": "Light 1",
-    "description": "Profesyonel futbol topu, sahada harika performans sağlar.",
-    "descriptionEn": "English 212312",
+    "title": "Denizaltı Navigasyon Işığı",
+    "titleEn": "Submarine Navigation Light",
+    "description": "Aydınlatma sinyali, oluşum yelken sinyali, ankraj sinyali olarak çarpışmayı önlemek için geleneksel motorlu denizaltı ve nükleer motorlu denizaltı için kullanılır, 400m su altına dalmak için uygulanır",
+    "descriptionEn": "Used for the conventional powered submarine and nuclear-powered submarine to prevent collision as the lighting signal, formation sailing signal, anchor signal, applied to dive under the water 400m",
     "category": "Light"
   },
   {
     "id": 2,
     "image": "https://picsum.photos/500/300",
-    "title": "Işık 2",
-    "titleEn": "Light 2",
-    "description": "Yüksek çözünürlüklü ekran ve güçlü işlemciye sahip akıllı telefon.",
-    "descriptionEn": "english 1213123",
+    "title": "Patlamaya Dayanıklı Navigasyon Sinyal Lambası",
+    "titleEn": "Explosion-Proof Navigation Signal Lamp",
+    "description": "Gece navigasyonu, ışık sinyali tanımlama ve iletişim için 50m veya daha fazla her türlü yanıcı ve patlayıcı özel nakliye gemisine uygulanır.",
+    "descriptionEn": "Applied to the for all kinds of inflammable and explosive special transport ships of 50m or more for night navigation, light signal identification and communication.",
     "category": "Light"
   },
   {
     "id": 3,
     "image": "https://picsum.photos/500/300",
-    "title": "Işık 3",
-    "titleEn": "Light 3",
-    "description": "Eğlenceli bir şekilde partiye renk katacak komik maskara.",
-    "descriptionEn": "english 1213123",
+    "title": "Patlamaya Dayanıklı Sınır Işığı",
+    "titleEn": "Explosion-Proof Boundary Light",
+    "description": "-40 ° C ila + 55 ° C arasındaki ortam sıcaklığında patlayıcı gaz ortamına sahip bölge 1 veya 2'ye uygulanır ve helikopter iniş yardım platformu için sınır ışığı sinyali göstergesi sağlar.",
+    "descriptionEn": "Applied to the for for zone 1 or 2 with explosive gas environment at ambient temperature of-40 °C to +55 °C, providing boundary light signal indication for helicopter landing assistance platform.",
     "category": "Light"
   },
   {
     "id": 4,
     "image": "https://picsum.photos/500/300",
-    "title": "Işık 4",
-    "titleEn": "Light 4",
-    "description": "Yumuşak ve kaymaz yüzeyi ile rahatlatıcı yoga matı.",
-    "descriptionEn": "english 1213123",
+    "title": "Patlamaya Dayanıklı Havacılık Engel Işığı",
+    "titleEn": "Explosion-Proof Aviation Obstruction Light",
+    "description": "Petrol madenciliği, eritme, kimya endüstrisi, askeri sanayi rezervi, açık deniz platformları vb. İşletmelerin tehlikeli ortamlarına uygulanır. Yüksek binalar gibi yerlerde havacılık engeli uyarısı olarak kullanılır.",
+    "descriptionEn": "Applied to the for dangerous environments of enterprises such as oil mining, smelting, chemical industry, military industry reserve, offshore platforms, etc. It is used as an aviation obstacle warning in places such as tall buildings.",
     "category": "Light"
   },
   {
     "id": 5,
     "image": "https://picsum.photos/500/300",
-    "title": " 5",
-    "titleEn": "Light 5",
-    "description": "Çeşitli mutfak işlemleri için kullanılabilen çok amaçlı robot.",
-    "descriptionEn": "english 1213123",
+    "title": "Patlamaya Dayanıklı Durum Işığı",
+    "titleEn": "Explosion-Proof Status Light",
+    "description": "Platformda helikopterler veya gemideki personel için tehlikeli olabilecek durumlar olduğunda, helikopter güvertesinin şu anda inemediğini ve helikopter güvertesinin yakınına kurulduğunu belirten bir uyarı vermek için kullanılır.",
+    "descriptionEn": "It is used to give a warning when there are situations on the platform that may be dangerous to helicopters or personnel on board, indicating that the helideck cannot land at present and is installed near the helideck.",
     "category": "Light"
   },
   {
     "id": 6,
     "image": "https://picsum.photos/500/300",
-    "title": "Işık 6",
-    "titleEn": "Light 6",
-    "description": "En çok satan bir roman kitabı, sürükleyici bir hikaye sunar.",
-    "descriptionEn": "english 1213123",
+    "title": "Patlamaya Dayanıklı H Işık",
+    "titleEn": "Explosion-Proof H Light",
+    "description": "-40 ° C ila + 50 ° C ortam sıcaklığında patlayıcı gaz ortamına sahip 1 veya 2 numaralı alanlara uygulanır ve helikopter iniş yardım platformu için 'H' işareti ışık sinyali göstergesi sağlar.",
+    "descriptionEn": "Applied to the for areas 1 or 2 with explosive gas environment at ambient temperature of-40 °C to +50 °C, providing 'H' sign light signal indication for helicopter landing aid platform.",
     "category": "Light"
   },
   {
     "id": 7,
     "image": "https://picsum.photos/500/300",
-    "title": "Gözlük",
-    "description": "Şık tasarımlı güneş gözlüğü, UV koruması sunar.",
-    "category": "Connector"
+    "title": "Patlamaya Dayanıklı Halka Işık",
+    "titleEn": "Explosion-Proof Ring Light",
+    "description": "-40 ° C ila + 50 ° C ortam sıcaklığında patlayıcı gaz ortamına sahip 1. veya 2. Alanlar için uygulanır ve helikopter iniş yardım platformu için 'TD / PM' daire ışık sinyali göstergesi sağlar.",
+    "descriptionEn": "Applied to the for areas 1 or 2 with explosive gas environment at ambient temperature of-40 °C to +50 °C, providing 'TD/PM' circle light signal indication for helicopter landing aid platform.",
+    "category": "Light"
   },
   {
     "id": 8,
     "image": "https://picsum.photos/500/300",
-    "title": "Çiçek Buketi",
-    "description": "Renkli çiçeklerden oluşan güzel bir buket.",
-    "category": "Life Saving"
+    "title": "Patlamaya Dayanıklı Projektör",
+    "titleEn": "Explosion-Proof Floodlight",
+    "description": "Petrol platformunda bulunan helikopter iniş alanına uygulanır. İniş yeri aydınlatması olarak.",
+    "descriptionEn": "Applied to helicopter landing area located in oil platform. As landing location lighting.",
+    "category": "Light"
   },
   {
     "id": 9,
     "image": "https://picsum.photos/500/300",
-    "title": "Hafıza Kartı",
-    "description": "Yüksek kapasiteli hafıza kartı, fotoğraflarınızı saklar.",
-    "category": "Spare Parts"
+    "title": "Patlamaya Dayanıklı Windsock Işığı",
+    "titleEn": "Explosion-Proof Windsock Light",
+    "description": "Ürünler, açık deniz helikopter platformu, gemi vinci vb. İçin rüzgar yönünü belirtmek üzere tehlikeli alan 1 ve 2, patlayıcı gaz karışımı A, B, C'ye kurulabilir, helikopterin kalkması ve inmesi için en iyi açıyı sağlayabilir.",
+    "descriptionEn": "The products can be installed in the hazardous area 1 and 2, explosive gas mixture A,B,C, to indicate the wind direction for offshore helicopter platform, ship crane and so on, it can provide the best angle for helicopter to take off and land.",
+    "category": "Light"
   },
   {
     "id": 10,
     "image": "https://picsum.photos/500/300",
-    "title": "Koşu Ayakkabısı",
-    "description": "Konforlu ve destekleyici koşu ayakkabısı.",
-    "category": "Connector"
+    "title": "Platform Durumu Görsel Sinyal Sistemi",
+    "titleEn": "Platform Status Visual Signal System",
+    "description": "Yükseltici istasyonlar ve petrol platformları gibi çeşitli açık deniz platformlarının, platformun normal durumda olup olmadığını, platformu terk edip etmediğini, petrol ve gaz sızıntısını, patlamayı vb. Belirtmek için farklı ışık sinyalleri göndermesi uygundur. Aynı zamanda patlayıcı gaz atmosferi olan yerler için de uygundur.",
+    "descriptionEn": "It is suitable for various offshore platforms such as booster stations and oil platforms to send out different light signals to indicate whether the platform is in a normal state, abandoning the platform, oil and gas leakage, blowout, etc. At the same time, it is suitable for places with explosive gas atmosphere.",
+    "category": "Light"
   },
   {
     "id": 11,
     "image": "https://picsum.photos/500/300",
-    "title": "Kulaklık",
-    "description": "Yüksek kaliteli kablosuz kulaklık, etkileyici ses deneyimi sunar.",
-    "category": "Teknoloji"
+    "title": "Gemi Helikopteri Işık Kontrol Sistemi",
+    "titleEn": "Light Control System For Ship Helicopter",
+    "description": "Kontrol kutusu, 'Gemide Helikopter Yüzey Sistemi Genel Gereksinimleri'ne (3. Bölüm) uygun olarak tasarlanmış ve geliştirilmiştir. Çeşitli gemi helikopter platformlarının iniş yardımcı ışıklarını kontrol etmek için kullanılır.",
+    "descriptionEn": "The control box is designed and developed in accordance with the 'General Requirements for Ship Helicopter Surface System' (Section 3). It is used to control the landing aid lights of various ship helicopter platforms.",
+    "category": "Light"
   },
   {
     "id": 12,
     "image": "https://picsum.photos/500/300",
-    "title": "Karaoke Mikrofonu",
-    "description": "Ev partileri için eğlenceli karaoke mikrofonu.",
-    "category": "Eğlence"
+    "title": "Platform Sınır Işığı",
+    "titleEn": "Platform Boundary Light",
+    "description": "Platform sınır ışıkları, helikopter LZ platform iniş alanının sınır aydınlatma işaretini sağlar.",
+    "descriptionEn": "Platform boundary lights provide the boundary lighting marking of helicopter LZ platform landing area.",
+    "category": "Light"
   },
   {
     "id": 13,
     "image": "https://picsum.photos/500/300",
-    "title": "Fitness Bileziği",
-    "description": "Adım sayma ve kalp atış hızını ölçen akıllı fitness bileziği.",
-    "category": "Sağlık ve Fitness"
+    "title": "Üst Yapı Engel Işığı",
+    "titleEn": "Superstructure Obstruction Light",
+    "description": "Helikopterci için gece veya görüş mesafesi düşük olduğunda üst yapı anahat konumunu belirtin.",
+    "descriptionEn": "Indicate the superstructure outline position for helicopterist, when at night or under low visibility.",
+    "category": "Light"
   },
   {
     "id": 14,
     "image": "https://picsum.photos/500/300",
-    "title": "Mikrodalga Fırın",
-    "description": "Hızlı yemek ısıtma için kullanışlı mikrodalga fırın.",
-    "category": "Ev Aletleri"
+    "title": "LZ Sinyal Işığı",
+    "titleEn": "LZ Signal Light",
+    "description": "Bu ışık ayrı ayrı kırmızı, sarı ve yeşil ışık yayabilir, helikopter eylemi için hangarın içinde ve dışında talimat verir.",
+    "descriptionEn": "This light can emit red, yellow and green, lighting signal separately, it issues the instruction for helicopter action inside and outside the hangar.",
+    "category": "Light"
   },
   {
     "id": 15,
     "image": "https://picsum.photos/500/300",
-    "title": "Bilim Kurgu Kitabı",
-    "description": "Uzak gelecekte geçen bir bilim kurgu romanı.",
-    "category": "Kitaplar"
+    "title": "Gösterge Işığı",
+    "titleEn": "Indicator Light",
+    "description": "Bu ışık ayrı ayrı kırmızı, sarı ve yeşil ışık yayabilir, gece veya düşük görüşlü durumda LZ platformunda komutana iniş yapılması ve görevin gerçekleştirilmesi için uygundur.",
+    "descriptionEn": "Fit for the commander to indicate to land and to carry out the task when at night or low visibility on LZ platform.",
+    "category": "Light"
   },
   {
     "id": 16,
     "image": "https://picsum.photos/500/300",
-    "title": "Deri Cüzdan",
-    "description": "Şık ve dayanıklı deri cüzdan, kart ve para saklamak için ideal.",
-    "category": "Moda"
+    "title": "Ana Gemisi Tanımlama Işığı",
+    "titleEn": "Mothership Identification Light",
+    "description": "Bu ışık gece veya düşük görüşlü durumda helikopterin ana gemisini tanımlaması için ışık sinyali sağlar.",
+    "descriptionEn": "Provide light signal for helicopter to identify the mothership when at night or under low visibility situation.",
+    "category": "Light"
   },
   {
     "id": 17,
     "image": "https://picsum.photos/500/300",
-    "title": "Doğum Günü Balonları",
-    "description": "Renkli balonlarla süslenmiş doğum günü partisi için dekorasyon seti.",
-    "category": "Hediyelik Eşyalar"
+    "title": "Dikey İniş Işığı",
+    "titleEn": "Vertical Landing Light",
+    "description": "Bu ışık, gemi iniş işaretleme çizgisinin sonuna monte edilen gemi iniş yardımcı aydınlatma sisteminin bir parçasıdır. Helikopter pilotu yaklaştığında gelen azimut bilgisini sağlar.",
+    "descriptionEn": "The light is a part of helicopter landing aid lighting system for vessels; it is installed on the end of carrier landing marking line. It provides inbound azimuth information when helicopter pilot approaches.",
+    "category": "Light"
   },
   {
     "id": 18,
     "image": "https://picsum.photos/500/300",
-    "title": "Kamera",
-    "description": "Yüksek çözünürlüklü fotoğraf ve video çekimi için profesyonel kamera.",
-    "category": "Elektronik"
+    "title": "Gemide İniş Yaklaşım Rehber Işığı",
+    "titleEn": "Carrier Landing Approach Guiding Light",
+    "description": "Bu ışık, gece veya düşük görüşlü gündüz saatlerinde helikopter pilotuna doğru iniş azimut verisini sağlar, güvenli inişi sağlamak için.",
+    "descriptionEn": "The light provides correct landing azimuth datum to helicopter pilot in night or low visibility day time, to ensure safe landing.",
+    "category": "Light"
   },
   {
     "id": 19,
     "image": "https://picsum.photos/500/300",
-    "title": "Yüzme Gözlüğü",
-    "description": "Su altında net görüş sağlayan yüzme gözlüğü.",
-    "category": "Spor"
+    "title": "Üst Yapı Arka Duvar Aydınlatma Işığı",
+    "titleEn": "Superstructure Back Wall Floodlight",
+    "description": "Bu ışık, helikopter yüklü çeşitli gemilere uygulanır ve helikopter platformunun iniş bölgesinde kullanılır, hangarın arka duvar yüzeyini aydınlatır.",
+    "descriptionEn": "This light is applied to all kinds of ships loaded with helicopters, and used in dropping zone of helicopter platform, to lighten the back wall surface of hangar.",
+    "category": "Light"
   },
   {
     "id": 20,
     "image": "https://picsum.photos/500/300",
-    "title": "Kablosuz Hoparlör",
-    "description": "Taşınabilir kablosuz hoparlör, müziği her yere götürmenizi sağlar.",
-    "category": "Teknoloji"
+    "title": "Üstten Aydınlatma Işığı",
+    "titleEn": "Overhead Floodlight",
+    "description": "Bu ışık, gece veya düşük görüşlü durumlarda helikopter platformunun aydınlatılması için uygundur, helikopterin platform üzerinde güvenli bir şekilde çalışmasını sağlar.",
+    "descriptionEn": "Suitable for helicopter platform lighting to ensure the helicopter work safely on the platform when at night or under low visibility.",
+    "category": "Light"
+  },
+  {
+    "id": 21,
+    "image": "https://picsum.photos/500/300",
+    "title": "Gemi Yüzeyi Aydınlatma Işığı",
+    "titleEn": "Deck Surface Floodlight",
+    "description": "Bu ışık, gece veya düşük görüşlü durumlarda helikopterin kalkış yapması ve iniş yapması için aydınlatma sağlar.",
+    "descriptionEn": "The light can provide the lighting for helicopterist to take off and land when at night or under low visibility.",
+    "category": "Light"
+  },
+  {
+    "id": 22,
+    "image": "https://picsum.photos/500/300",
+    "title": "Düşük Sıcaklık Navigasyon Sinyal Işığı",
+    "titleEn": "Low Temperature Navigation Signal Light",
+    "description": "Uzunluğu 50 m veya daha fazla olan gemilere gece navigasyonunda lamba sinyal bağlantısı olarak uygulanır.",
+    "descriptionEn": "Applied to the ships with the length of 50m or above as lamp signal liasion when night navigation.",
+    "category": "Light"
+  },
+  {
+    "id": 23,
+    "image": "https://picsum.photos/500/300",
+    "title": "Led Düşük Sıcaklık Sarkan Işık",
+    "titleEn": "Led Low Temperature Pendant Light",
+    "description": "Bu ışık, motor ve fırın kabinleri, kuru yük kabinleri, şaft tüneli, borular, açık güverte gibi her türlü geminin damlayan su, sıçrayan su ve yoğuşma suyunun bulunduğu yerlere uygulanır, aydınlatma amaçlı kullanılır. Özellikle kutup ve diğer düşük sıcaklık ortamlarında kullanılır.",
+    "descriptionEn": "Applied to the places where all kinds of ships have dripping water, splashing water and condensation water, such as engine and furnace cabins, dry cargo cabins, shaft tunnel, pipes, outdoor decks and other places for lighting purposes. Especially in polar and other low temperature environments.",
+    "category": "Light"
+  },
+  {
+    "id": 24,
+    "image": "https://picsum.photos/500/300",
+    "title": "Düşük Sıcaklık Nokta Işığı",
+    "titleEn": "Low Temperature Spot Light",
+    "description": "Bu ışık, -50 °C ile +55 °C arasında ambiyans sıcaklığına sahip her türlü gemi, iskele, depolama alanı ve diğer açık yerlere uygulanabilir, aydınlatma için kullanılır.",
+    "descriptionEn": "Applied to suitable for all kinds of ships, docks, storage yards and other open places with ambient temperature ranging from -50 °C to +55 °C for lighting.",
+    "category": "Light"
+  },
+  {
+    "id": 25,
+    "image": "https://picsum.photos/500/300",
+    "title": "Düşük Sıcaklık Arama Işığı",
+    "titleEn": "Low Temperature Searchlight",
+    "description": "Bu ışık, -50 °C ile +50 °C ambiyans sıcaklığına sahip her türlü kutup navigasyon gemisi ve karmaşık navigasyon kanalı olan sulardan geçerken her iki sahil ve su yüzeyini arama, gece navigasyonu sırasında uzun mesafe keşif aydınlatması için kullanılır.",
+    "descriptionEn": "Applied to suitable for all kinds of polar navigation ships and ships with ambient temperature of -50 °C +50 °C, and is used for long-distance exploration lighting during night navigation, as well as for illuminating navigation channel, searching for both banks and water surface when passing through waters with complicated navigation channel.",
+    "category": "Light"
+  },
+  {
+    "id": 26,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 27",
+    "titleEn": "Lorem Ipsum 27",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "category": "Light"
+  },
+  {
+    "id": 27,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 28",
+    "titleEn": "Lorem Ipsum 28",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "category": "Light"
+  },
+  {
+    "id": 28,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 29",
+    "titleEn": "Lorem Ipsum 29",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "category": "Light"
+  },
+  {
+    "id": 29,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 30",
+    "titleEn": "Lorem Ipsum 30",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "category": "Light"
   }
 ]
