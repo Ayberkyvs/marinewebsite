@@ -4,17 +4,31 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST["email"];
     $message = $_POST["message"];
 
-    $to = "ayberk.yavas@pinyin-marine.com"; // Alıcı e-posta adresi
-    $subject = "Form Submission from $name"; // E-posta konusu
-    $headers = "From: $email";
+    $to = "ayberk.yavas@pinyin-marine.com";
+    $subject = "Website Form Submission from $name";
+    $headers = "From: $email\r\n";
+    $headers .= "Reply-To: $email\r\n";
+    $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
 
-    $full_message = "Name: $name\nEmail: $email\n\n$message";
+    $email_content = "
+    <html>
+    <head>
+        <title>Website Form Submission</title>
+    </head>
+    <body>
+        <h2>New Form Submission</h2>
+        <p><strong>Name:</strong> $name</p>
+        <p><strong>Email:</strong> $email</p>
+        <p><strong>Message:</strong><br>$message</p>
+    </body>
+    </html>
+    ";
 
     // E-postayı gönder
-    if (mail($to, $subject, $full_message, $headers)) {
-        echo "E-posta gönderildi!";
+    if (mail($to, $subject, $email_content, $headers)) {
+        echo "E-posta başarıyla gönderildi!";
     } else {
-        echo "E-posta gönderilemedi.";
+        echo "E-posta gönderilirken bir hata oluştu.";
     }
 }
 ?>
