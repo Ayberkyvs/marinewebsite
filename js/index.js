@@ -14,6 +14,9 @@ function run() {
   document.addEventListener("DOMContentLoaded", contentLoaded);
   hamburgerMenu.addEventListener("click", toggleMenu);
   jQuery(document).ready(menuLinksScrollHandler);
+  window.onscroll = function () {
+    scrollFunction();
+  };
 }
 function handleScroll() {
   if (window.scrollY <= 0) {
@@ -28,6 +31,7 @@ function handleScroll() {
 function contentLoaded() {
   animateHeader();
   animateTexts();
+  removeLoader();
 }
 function animateHeader() {
   header.style.height = "80px";
@@ -137,4 +141,66 @@ function menuLinksScrollHandler($) {
     );
   }
   $("[data-scroll]").on("click", scrollToSection);
+}
+
+function removeLoader() {
+  // const loader = document.querySelector(".loader");
+  // loader.style.display = "none";
+  document.body.style.overflow = "hidden";
+  var loader = document.querySelector(".loader");
+
+  function hideLoader() {
+    loader.classList.add("hidden");
+  }
+
+  // Sayfa yüklendikten 2 saniye sonra loader'ı gizle ve sayfayı kapat
+  setTimeout(function () {
+    hideLoader();
+    document.body.style.overflow = "visible";
+  }, 1000);
+
+  // Sayfa yenilendiğinde loader'ı tekrar göster
+  window.addEventListener("beforeunload", function () {
+    loader.classList.remove("hidden");
+  });
+
+  var initialSize = 150;
+  var targetSize = 1000;
+  var duration = 10;
+
+  var startTime = 980;
+
+  function animateBackgroundSize(timestamp) {
+    if (!startTime) startTime = timestamp;
+
+    var progress = timestamp - startTime;
+    var newSize =
+      initialSize + (progress / duration) * (targetSize - initialSize);
+
+    loader.style.backgroundSize = newSize + "px";
+
+    if (progress < duration) {
+      requestAnimationFrame(animateBackgroundSize);
+    }
+  }
+
+  requestAnimationFrame(animateBackgroundSize);
+}
+
+function scrollFunction() {
+  var scrollTopButton = document.getElementById("scrollTopButton");
+
+  if (
+    document.body.scrollTop > 1500 ||
+    document.documentElement.scrollTop > 1500
+  ) {
+    scrollTopButton.style.display = "block";
+  } else {
+    scrollTopButton.style.display = "none";
+  }
+}
+
+function scrollToTop() {
+  document.body.scrollTop = 0; // Safari
+  document.documentElement.scrollTop = 0; // Diğer tarayıcılar
 }

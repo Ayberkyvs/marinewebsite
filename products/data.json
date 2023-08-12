@@ -618,7 +618,7 @@
     "titleEn": "Solar Flyhorse Light",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "descriptionEn": "The product has high charging, the solar panel can be adjusted vertically / horizontally 360° ; the lens has a large irradiation area and uniform illumination, and the entire lighting effect is 180lm-200lm / w; it is embedded with an intelligent monitoring and control system, which can intelligently sense the ambient temperature, humidity and PM value Automatically adjusted the color temperature when changing, and plan the discharge power to light up for a longer time. Can add ordinary or 4g camera.",
-    "category": "Light"
+    "category": "Life Saving"
   },
   {
     "id": 70,
@@ -627,7 +627,7 @@
     "titleEn": "Solar Nighthawk Light",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "descriptionEn": "The product supports zero volt charging, the solar panel can be adjusted vertically / horizontally 360° the lens has a large irradiation area and uniform illumination, and the entire lighting effect reaches 170lm / w; it is embedded with an intelligent monitoring and control system, which can intelligently sense the ambient temperature, humidity and PM value Automatically adjusted the color temperature when changing, and plan the discharge power to light up for a longer time. Can add ordinary or 4g camera.",
-    "category": "Light"
+    "category": "Spare Parts"
   },
   {
     "id": 71,
@@ -636,7 +636,7 @@
     "titleEn": "Solar Flyshark Light",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "descriptionEn": "The product supports zero-volt charging, the solar panel can be adjusted vertically / horizontally 360° ; the lens has a large irradiation area and uniform illumination, and the overall lighting effect is 150lm / w; it is intelligently sense changes in ambient temperature, humidity and PM values and automatically plan discharge power to light Longer time.",
-    "category": "Light"
+    "category": "Spare Parts"
   },
   {
     "id": 72,
@@ -645,7 +645,7 @@
     "titleEn": "Solar Swan Light",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "descriptionEn": "The product supports zero-volt charging, the solar panel can be adjusted vertically / horizontally 360° ; the lens has a large irradiation area and uniform illumination, and the overall lighting effect is 160lm / w; it is intelligently sense changes in ambient temperature, humidity and PM values and automatically plan discharge power to light Longer time.",
-    "category": "Light"
+    "category": "Spare Parts"
   },
   {
     "id": 73,
@@ -654,7 +654,7 @@
     "titleEn": "Solar Flybird Light",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "descriptionEn": "The product supports zero-volt charging, the solar panel can be adjusted vertically / horizontally 360° ; the lens has a large irradiation area and uniform illumination, and the overall lighting effect is 150lm / w; it is intelligently sense changes in ambient temperature, humidity and PM value and automatically plan discharge power to light Longer time.",
-    "category": "Light"
+    "category": "Spare Parts"
   },
   {
     "id": 74,
@@ -663,7 +663,7 @@
     "titleEn": "Solar Sailing Light",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "descriptionEn": "The product supports zero-volt charging, the solar panel can be adjusted vertically / horizontally 360° ; the lens has a large irradiation area and uniform illumination, and the overall lighting effect is 160lm / w; it is intelligently sense changes in ambient temperature, humidity and PM value and automatically plan discharge power to light Longer time.",
-    "category": "Light"
+    "category": "Spare Parts"
   },
   {
     "id": 75,
@@ -681,7 +681,7 @@
     "titleEn": "Solar Moon Light",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "descriptionEn": "The product supports zero-volt charging, the solar panel can be adjusted vertically / horizontally 360° ; the lens has a large irradiation area and uniform illumination, it can intelligently sense changes in ambient temperature, humidity and PM value and automatically plan the discharge power to turn on for longer.",
-    "category": "Light"
+    "category": "Life Saving"
   },
   {
     "id": 77,
@@ -699,7 +699,7 @@
     "titleEn": "Portable Work Light",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "descriptionEn": "Applied to suitable for mobile lighting in ships, port, docks, industrial and mining places.",
-    "category": "Light",
+    "category": "Life Saving",
     "isNew": "yes"
   },
   {
@@ -709,7 +709,7 @@
     "titleEn": "Portable Explosion-Proof Searchlight",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "descriptionEn": "Applied to suitable for mobile lighting is ships, ports, docks, industrial and mining, flammable and explosive places.",
-    "category": "Light",
+    "category": "Life Saving",
     "isNew": "yes"
   },
   {
@@ -719,7 +719,7 @@
     "titleEn": "Mini Explosion-Proof Flashlight",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "descriptionEn": "Applied to suitable for mobile lighting in ships, ports, docks, industrial and mining, flammable and explosive places.",
-    "category": "Light",
+    "category": "Life Saving",
     "isNew": "yes"
   },
   {
