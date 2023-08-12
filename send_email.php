@@ -128,12 +128,31 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <h1><i class="fa fa-envelope"></i><span><?php echo $outputTitle; ?></span></h1>
                         <p><?php echo $outputText ?></p>
                         <h6>developed by <a href="ayberkyavas.com" target="_blank">YAVAS</a></h6>
+                        <p id="redirect-text">You will be redirected to the homepage in <span id="countdown">5</span> seconds.</p>
                     </div>
                     <!--/ End Error Inner -->
                 </div>
             </div>
         </div>
     </section>
+    
+    <script>
+        // Sayfayı yüklendikten 5 saniye sonra başka bir sayfaya yönlendirme
+        setTimeout(function() {
+            var countdownElement = document.getElementById("countdown");
+            var countdownValue = 5;
+
+            var countdownInterval = setInterval(function() {
+                countdownValue--;
+                countdownElement.innerText = countdownValue;
+
+                if (countdownValue === 0) {
+                    clearInterval(countdownInterval);
+                    window.location.href = "index.html"; // Yönlendirilecek sayfa
+                }
+            }, 1000);
+        }, 5000); // 5 saniye
+    </script>
 </body>
 
 </html>
