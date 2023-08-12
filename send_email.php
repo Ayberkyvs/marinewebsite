@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $outputText = "The form requires completion of all fields to proceed. Kindly provide the necessary information in each section to ensure a successful submission. Your attention to these details helps us better understand your needs and respond effectively.";
         $isSuccess = "red";
     } else {
-        $to = "ayberk.yavas@pinyin-marine.com";
+        $to = "info@pinyin-marine.com";
         $subject = "Website Form Submission from $name";
         $headers = "From: $email\r\n";
         $headers .= "Reply-To: $email\r\n";
