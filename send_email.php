@@ -7,7 +7,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Girilen verilerin boş olup olmadığını kontrol et
     if (empty($name) || empty($email) || empty($message)) {
         $titleMessage = "Please fill out all fields.";
-        $outputTitle = "Please fill out all fields.";
+        $outputTitle = "An error occurred while sending the email.";
+        $outputText = "The form requires completion of all fields to proceed. Kindly provide the necessary information in each section to ensure a successful submission. Your attention to these details helps us better understand your needs and respond effectively.";
         $isSuccess = "red";
     } else {
         $to = "ayberk.yavas@pinyin-marine.com";
