@@ -481,10 +481,14 @@ html {
   }
   .footer-copyright {
     display: inline-flex !important;
+    justify-content: center;
+    align-items: center;
     width: auto !important;
     position: absolute !important;
     bottom: 0;
     left: 50%;
+    width: 100% !important;
+    text-align: center !important;
     transform: translate(-50%);
   }
 }

@@ -31,7 +31,7 @@ function handleScroll() {
 function contentLoaded() {
   animateHeader();
   animateTexts();
-  removeLoader();
+  // removeLoader();
 }
 function animateHeader() {
   header.style.height = "80px";
