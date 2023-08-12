@@ -187,7 +187,7 @@ html {
 }
 .languageSelector div {
   margin: 0;
-  font-size: 14px;
+  font-size: 12px;
 }
 .languageSelector div button {
   color: #002f6c;
@@ -386,6 +386,14 @@ html {
     display: flex;
   }
 }
+.footer-social {
+  width: 20px;
+  height: auto;
+  color: black;
+  font-size: 20px;
+  margin: 3px;
+}
+
 .aboutus-wrapper {
   font-family: "Inter", sans-serif;
   display: flex;
@@ -577,6 +585,149 @@ html {
     padding: 0;
   }
   .card {
+    width: 100% !important;
+  }
+}
+.contactus-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  font-family: "Inter", sans-serif;
+  padding: 50px;
+}
+.contactus-wrapper .contactus-heading {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contactus-wrapper .contactus-heading h6 {
+  font-size: 20px;
+}
+.contactus-wrapper .contactus-heading h2 {
+  font-size: 40px;
+}
+
+.contactus-body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+.contactus-body .map-wrapper {
+  width: 100%;
+  height: 300px;
+}
+.contactus-body .map-wrapper #map {
+  min-width: 100%;
+  height: 100%;
+}
+.contactus-body .contactus-inner {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+}
+.contactus-body .contactus-inner .contactus-contactInfo {
+  padding: 20px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.contactus-body .contactus-inner .contactus-contactInfo .contactInfo {
+  width: 100%;
+}
+.contactus-body .contactus-inner .contactus-contactInfo .contactInfo h5 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.contactus-body .contactus-inner .contactus-contactInfo .contactInfo ul {
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.contactus-body .contactus-inner .contactus-contactInfo .contactInfo li {
+  margin-bottom: 10px;
+  font-size: 16px !important;
+  font-weight: 300;
+}
+.contactus-body .contactus-inner .contactus-contactInfo .contactInfo li b {
+  font-weight: 600;
+}
+.contactus-body .contactus-inner .contactus-contactInfo .getSocial {
+  width: 100%;
+  height: auto;
+}
+.contactus-body .contactus-inner .contactus-contactInfo .getSocial .socialMedia-container {
+  height: auto !important;
+  width: 100%;
+}
+.contactus-body .contactus-inner .contactus-contactInfo .getSocial .socialMedia-container a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #002f6c; /* Kare arka plan rengi */
+  text-align: center;
+  line-height: 40px;
+  margin: 3px; /* Butonlar arasındaki boşluk */
+  color: #fff; /* Ikon rengi */
+  font-size: 20px;
+  text-decoration: none;
+}
+.contactus-body .contactus-inner .contactus-contactInfo .getSocial .socialMedia-container a:hover {
+  background-color: #0069f2;
+}
+.contactus-body .contactus-inner .contactus-contactInfo .getSocial h5 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.contactus-body .contactus-inner .contactus-form-wrapper {
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.contactus-body .contactus-inner .contactus-form-wrapper .contactus-heading {
+  width: 100%;
+  text-align: left;
+}
+.contactus-body .contactus-inner .contactus-form-wrapper .contactus-heading h5 {
+  font-size: 20px;
+}
+.contactus-body .contactus-inner .contactus-form-wrapper .contactus-heading p {
+  font-size: 18px;
+  font-weight: 300;
+}
+.contactus-body .contactus-inner .contactus-form-wrapper label {
+  font-size: 16px;
+}
+.contactus-body .contactus-inner .contactus-form-wrapper input:focus,
+.contactus-body .contactus-inner .contactus-form-wrapper textarea:focus {
+  border-color: #002f6c;
+  box-shadow: 0 0 0 0.2rem rgba(13, 11, 114, 0.25);
+}
+.contactus-body .contactus-inner .contactus-form-wrapper button {
+  background-color: #002f6c;
+  border: #002f6c;
+}
+
+@media (max-width: 800px) {
+  .contactus-wrapper {
+    padding: 0;
+  }
+  .contactus-inner {
+    flex-direction: column !important;
+  }
+  .contactus-inner div {
     width: 100% !important;
   }
 }/*# sourceMappingURL=index.css.map */

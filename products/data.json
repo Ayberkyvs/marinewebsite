@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "https://picsum.photos/500/300",
+    "image": "../img/products/1.jpg",
     "title": "Denizaltı Navigasyon Işığı",
     "titleEn": "Submarine Navigation Light",
     "description": "Aydınlatma sinyali, oluşum yelken sinyali, ankraj sinyali olarak çarpışmayı önlemek için geleneksel motorlu denizaltı ve nükleer motorlu denizaltı için kullanılır, 400m su altına dalmak için uygulanır",
@@ -227,37 +227,519 @@
   {
     "id": 26,
     "image": "https://picsum.photos/500/300",
-    "title": "Lorem Ipsum 27",
-    "titleEn": "Lorem Ipsum 27",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "title": "Led Deniz Kabin Işıkları",
+    "titleEn": "Led Naval Cabin Lights",
+    "description": "Bu ışık, motor dairesi, kuru yük tankı, şaft tüneli, boru hattı, açık güverte gibi her türlü geminin damlayan, sıçrayan ve yoğuşma suyuna sahip yerlerine uygun olarak kullanılır.",
+    "descriptionEn": "Applied to suitable for all types of ships there are dripping, splashing, and condensing water, such as engine room, dry cargo tank, shaft tunnel, pipe lane, outdoor deck and other places for lighting purposes.",
     "category": "Light"
   },
   {
     "id": 27,
     "image": "https://picsum.photos/500/300",
-    "title": "Lorem Ipsum 28",
-    "titleEn": "Lorem Ipsum 28",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "title": "Led Deniz Mutfak ve Banyo Işıkları",
+    "titleEn": "Led Naval Kitchen and Bathroom Lights",
+    "description": "Bu ışık, mutfaklar, banyolar gibi damlayan, sıçrayan ve yoğuşma suyuna sahip her türlü gemi yerine uygun olarak kullanılır.",
+    "descriptionEn": "Applied to suitable for all types of ships there are dripping, splashing, and condensing water, such as kitchens, bathrooms and other places for lighting purposes.",
     "category": "Light"
   },
   {
     "id": 28,
     "image": "https://picsum.photos/500/300",
-    "title": "Lorem Ipsum 29",
-    "titleEn": "Lorem Ipsum 29",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "title": "Led Deniz Kabin Işıkları",
+    "titleEn": "Led Naval Cabin Lights",
+    "description": "Bu ışık, gemi mürettebatı ve askeri personelin yaşam alanları, dinlenme odaları, restoranlar, kabinler, telgraf odaları gibi tüm türdeki gemi kuru kabinlerine uygundur.",
+    "descriptionEn": "Applicable to all kinds of dry cabins of ships, such as living quarters, rest rooms, restaurants, cabins, telegraph rooms, etc. of crew and army staff.",
     "category": "Light"
   },
   {
     "id": 29,
     "image": "https://picsum.photos/500/300",
-    "title": "Lorem Ipsum 30",
-    "titleEn": "Lorem Ipsum 30",
+    "title": "Tavan Işığı",
+    "titleEn": "Ceiling Light",
+    "description": "Bu ışık, mürettebat ve yolcu yaşam kabinleri, salonlar, restoranlar, sürücü odaları ve rapor odaları gibi tüm türdeki gemi kuru kabinlerine uygundur.",
+    "descriptionEn": "Applicable to all kinds of dry cabins such as crew and passenger living cabins, lounges, restaurants, driving rooms, and reporting rooms.",
+    "category": "Light"
+  },
+  {
+    "id": 30,
+    "image": "https://picsum.photos/500/300",
+    "title": "Tavan Işığı",
+    "titleEn": "Ceiling Light",
+    "description": "Bu ışık, mürettebat ve yolcu yaşam kabinleri, salonlar, restoranlar, sürücü odaları ve rapor odaları gibi tüm türdeki gemi kuru kabinlerine uygundur.",
+    "descriptionEn": "Applied to all kinds of dry cabins, such as crew and passenger living cabins, lounges, restaurant, driving rooms, and reporting rooms",
+    "category": "Light"
+  },
+  {
+    "id": 31,
+    "image": "https://picsum.photos/500/300",
+    "title": "Koridor Işığı",
+    "titleEn": "Corridor Light",
+    "description": "Bu ışık, çeşitli gemi koridorlarında aydınlatma için uygun olup, diğer yerlerde ek aydınlatma için de kullanılır.",
+    "descriptionEn": "Applied to suitable for lighting in the passages of various ships, or for supplementary lighting in other places.",
+    "category": "Light"
+  },
+  {
+    "id": 32,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 32",
+    "titleEn": "Lorem Ipsum 32",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "category": "Light"
+  },
+  {
+    "id": 33,
+    "image": "https://picsum.photos/500/300",
+    "title": "Ultraviyole Işık",
+    "titleEn": "Ultra Violet Light",
+    "description": "Bu ışık, gemilerde mutfaklar gibi ultraviyole dezenfeksiyon gerektiren tüm türdeki yerler için uygundur.",
+    "descriptionEn": "Applied to suitable for all kinds of places that need ultraviolet disinfection on ships, such as kitchens.",
+    "category": "Light"
+  },
+  {
+    "id": 34,
+    "image": "https://picsum.photos/500/300",
+    "title": "Savaş Çalışma Işıkları",
+    "titleEn": "Combat Work Lights",
+    "description": "Bu ışık, savaş gemisi komuta odaları, sürücü odaları, konferans odaları gibi tüm türdeki yerlere uygun olarak kullanılır. Ek aydınlatma armatürleri olarak yüzey montajı ve asimetrik ışık dağılımını benimser, ışık kaynağının parlaklığını ve ışıma yönünü ayarlama işlevine sahiptir.",
+    "descriptionEn": "Applied to suitable for all kinds of warship command rooms, driving rooms, conference rooms and other places. As supplementary lighting fixtures, it adopts surface installation and asymmetric light distribution, and has the function of adjusting the brightness of the light source and the irradiation direction.",
+    "category": "Light"
+  },
+  {
+    "id": 35,
+    "image": "https://picsum.photos/500/300",
+    "title": "Yüksek Sıcaklık Dirençli Sel Işığı",
+    "titleEn": "High Temperature Resistance Floodlight",
+    "description": "Bu ışık, çeşitli gemilerin kabinleri ve yürüyüş yolları gibi nemli ve yüksek sıcaklık gerektiren yerler için güvenli, güvenilir ve konforlu aydınlatma sağlar.",
+    "descriptionEn": "Applied to suitable for damp and high temperature places such as cabins and walkways of various ships and provides safe, reliable and comfortable lighting.",
+    "category": "Light"
+  },
+  {
+    "id": 36,
+    "image": "https://picsum.photos/500/300",
+    "title": "Tıbbi Cerrahi Işık",
+    "titleEn": "Medical Surgical Light",
+    "description": "Bu ışık, gemi ameliyat odasına uygundur.",
+    "descriptionEn": "Applicable to the ship medical operating room.",
+    "category": "Light"
+  },
+  {
+    "id": 37,
+    "image": "https://picsum.photos/500/300",
+    "title": "Led Dikdörtgen Sarkaç Işıkları",
+    "titleEn": "Led Rectangular Pendant Light",
+    "description": "Bu ışık, fırın kabini, kuru kabin, tünel, boru hattı ve hava güvertesi gibi gemilerde su sıçramasının olduğu yerlerin aydınlatması için kullanılır.",
+    "descriptionEn": "Applied to illumination of water spattering, water coagulating place in ships, such as oven cabin, dry cabin, tunnel, pipeline and weather deck etc.",
+    "category": "Light"
+  },
+  {
+    "id": 38,
+    "image": "https://picsum.photos/500/300",
+    "title": "Yeni Led Dikdörtgen Sarkaç Işıkları",
+    "titleEn": "Led Rectangular Pendant Light New",
+    "description": "Bu ışık, fırın kabini, kuru kabin, tünel, boru hattı ve hava güvertesi gibi gemilerde su sıçramasının olduğu yerlerin aydınlatması için kullanılır.",
+    "descriptionEn": "Applied to illumination of water spattering, water coagulating place in ships, such as oven cabin, dry cabin, tunnel, pipeline and weather deck etc.",
+    "category": "Light"
+  },
+  {
+    "id": 39,
+    "image": "https://picsum.photos/500/300",
+    "title": "Led Tavan Işıkları",
+    "titleEn": "Led Ceiling Light",
+    "description": "Bu ışık, açık deniz petrol platformları ve çeşitli gemilerdeki geçit, çamaşırhane, banyo, toplantı odası, kontrol odası ve dinlenme odasına uygundur.",
+    "descriptionEn": "Applied to the passage, laundry room, bathroom, meeting room, control room and rest room in offshore oil platform and kinds of ships.",
+    "category": "Light"
+  },
+  {
+    "id": 40,
+    "image": "https://picsum.photos/500/300",
+    "title": "Kare Led Tavan Işıkları",
+    "titleEn": "Led Ceiling Light Square",
+    "description": "Bu ışık, açık deniz petrol platformları ve çeşitli gemilerdeki geçit, çamaşırhane, banyo, toplantı odası, kontrol odası ve dinlenme odasına uygundur.",
+    "descriptionEn": "Applied to the passage, laundry room, bathroom, meeting room, control room and rest room in offshore oil platform and kinds of ships.",
+    "category": "Light"
+  },
+  {
+    "id": 41,
+    "image": "https://picsum.photos/500/300",
+    "title": "Köşe Led Işıklar",
+    "titleEn": "Led Corner Light",
+    "description": "Bu ışık, mürettebat ve yolcu için tüm türdeki gemi yürüyüş yolları, çamaşırhaneler, banyolar, yaşam alanları, koridorlar, salonlar, restoranlar, kabinler, haber odaları gibi yerlerde kullanılır. Lambalar ayrıca karartma işlevine (kırmızı / beyaz ışık) ve acil aydınlatma işlevine sahiptir.",
+    "descriptionEn": "Applicable to all kinds of ship walkways, laundry rooms, bathrooms, living quarters, passages, lounges, restaurants, cabs, newsrooms and other places of crew and passengers for lighting. The lamps are also equipped with dimming function (red / white light) and emergency lighting function.",
+    "category": "Light"
+  },
+  {
+    "id": 42,
+    "image": "https://picsum.photos/500/300",
+    "title": "Led Yatak Yanı Işığı",
+    "titleEn": "Led Bedside Light",
+    "description": "Bu ışık, gemi konut kabinlerinde yatak yanı aydınlatması için kullanılır.",
+    "descriptionEn": "Applied to bedside illumination of residential cabin in ship.",
+    "category": "Light"
+  },
+  {
+    "id": 43,
+    "image": "https://picsum.photos/500/300",
+    "title": "Aşağı Işık",
+    "titleEn": "Down Light",
+    "description": "Bu ışık, lüks gemi ve deniz gemilerinde kabin, mutfak, banyo veya koridor aydınlatması için kullanılır.",
+    "descriptionEn": "Applied to the illumination of the cabin, kitchen, bathroom, or passage in luxury cruise ships and naval ships.",
+    "category": "Light"
+  },
+  {
+    "id": 44,
+    "image": "https://picsum.photos/500/300",
+    "title": "Düşük Seviye Aydınlatma",
+    "titleEn": "Low-Level Lighting",
+    "description": "Bu ışık, kabinde merdivenler, yürüyüş yolları ve güvenlik koridorları için işaret ve aydınlatma için kullanılır.",
+    "descriptionEn": "Applied to stairs, walkways and safety alleyway fır indication and illumination at cabin.",
+    "category": "Light"
+  },
+  {
+    "id": 45,
+    "image": "https://picsum.photos/500/300",
+    "title": "Yuvarlak Sarkaç Işığı",
+    "titleEn": "Round Pendant Light",
+    "description": "Bu ışık, gemilerdeki güvertelerdeki ıslak yerlerin veya kabinlerin aydınlatması için kullanılır.",
+    "descriptionEn": "Applied to the illumination for wet places indeck, sidewalk in ships or cabin.",
+    "category": "Light"
+  },
+  {
+    "id": 46,
+    "image": "https://picsum.photos/500/300",
+    "title": "Patlama Koruma Işığı",
+    "titleEn": "Explosion-Proof Light",
+    "description": "Bu ışık, patlayıcı karışım maddesinin A, B veya C sınıfına ulaştığı yerlerde güvenilir ve güvenli bir şekilde kullanılabilir ve T6 sıcaklık sınıfına sahip yerlerin aydınlatılması için uygundur.",
+    "descriptionEn": "It can be used reliably and safely in places with the air of explosive mixture substance which reach the grade A,B or C, and can be applied to the illuminations of the places with temperature class T6.",
+    "category": "Light"
+  },
+  {
+    "id": 47,
+    "image": "https://picsum.photos/500/300",
+    "title": "Elektronik Renkli Işıklar",
+    "titleEn": "Electronic Colored Lights",
+    "description": "Festivaller veya büyük kutlamalar sırasında savaş gemileri gün boyunca 'tam bayraklar' ve gece 'tam ışıklar' asarlar. Akıllı elektronik renkli ışıklar ve kontrol cihazları, 'tam ışıklar' asmak için kullanılan yeni bir tür elektronik renkli ışıktır.",
+    "descriptionEn": "During the festivals or major celebrations, warships are hung 'full flags' during the day and 'full lights' at night to show celebration. Intelligent electronic colored lights and control devices are a new type of electronic colored lights used to hang 'full lights'.",
+    "category": "Light"
+  },
+  {
+    "id": 48,
+    "image": "https://picsum.photos/500/300",
+    "title": "Elektronik Renkli Işıklar Kontrol Cihazları",
+    "titleEn": "Electronic Colored Lights Control Devices",
+    "description": "Festivaller veya büyük kutlamalar sırasında savaş gemileri gün boyunca 'tam bayraklar' ve gece 'tam ışıklar' asarlar. Akıllı elektronik renkli ışıklar ve kontrol cihazları, 'tam ışıklar' asmak için kullanılan yeni bir tür elektronik renkli ışıktır.",
+    "descriptionEn": "During the festivals or major celebrations, warships are hung 'full flags' during the day and 'full lights' at night to show celebration. Intelligent electronic colored lights and control devices are a new type of electronic colored lights used to hang 'full lights'.",
+    "category": "Light"
+  },
+  {
+    "id": 49,
+    "image": "https://picsum.photos/500/300",
+    "title": "Pencere Isıtma Kontrol Cihazı",
+    "titleEn": "Window Heating Controller",
+    "description": "Pencere ısıtma kontrol cihazı, her pencere cam ısıtıcısı için ilgili camın sıcaklığını gerçek zamanlı olarak görüntüler ve her pencere cam ısıtıcısı için başlatma, durdurma ve alarm ayarı işlevine sahiptir; her pencere cam ısıtıcısı manuel olarak seçilebilir Otomatik veya otomatik ısıtma, ısıtma sıcaklığı 0-50 ° C arasında isteğe bağlı olarak ayarlanabilir ve sıcaklık koruma işlevine sahiptir.",
+    "descriptionEn": "The window heating controller displays the temperature of the corresponding glass in real time for each window glass heater, and has the setting function of start, stop, and alarm for each widows glass heater, with heating and fault indication; each window glass heater can be manually selected Automatic or automatic heating, the heating temperature can be set arbitrarily between 0-50 °C, and has a temperature protection function.",
+    "category": "Light"
+  },
+  {
+    "id": 50,
+    "image": "https://picsum.photos/500/300",
+    "title": "Navigasyon Işığı Kontrol Cihazları",
+    "titleEn": "Navigation Light Controllers",
+    "description": "Navigasyon ışığı kontrol cihazı, navigasyon ışıklarını kontrol etmek ve durumlarını görüntülemek için kullanılır. Karartma, lamba testi ve sessizleştirme düğmelerine sahiptir ve ana ve yedek güç kaynağının otomatik anahtarlama, posta güç arızası alarmı ve navigasyon ışık arızası alarmı fonksiyonlarına sahiptir. Ürünler, deniz çelik gemileri için CCS sınıflandırma kurallarının gereksinimlerini karşılar.",
+    "descriptionEn": "The navigation light controller is used to control the navigation lights and display their status. It has the bottons for dimming, lamp test and silence and owns the functions of automatic switching of main and standby power supply, mail power failure alarm and navigation light failure alarm. The products meet the requirements of CCS classification rules for sea-going steel ships.",
+    "category": "Light"
+  },
+  {
+    "id": 51,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 51",
+    "titleEn": "Marine Engine Room Combined Alarm System",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "descriptionEn": "It is mainly used in engine rooms in modern ship.",
+    "category": "Light"
+  },
+  {
+    "id": 52,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 52",
+    "titleEn": "Cold Storage Call System",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "descriptionEn": "Cold storage call system is an effective tool for staff working in cold storage to communicate with the outside world in emergency situations. In case of emergency situations, staff can send audible and visual alarm signals to call the outside crew for assistance through the cold storage call system, to ensure the personel safety. Cold storage call system is an important safety equipment in cold storage for large and medium-sized ships.",
+    "category": "Light"
+  },
+  {
+    "id": 53,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 53",
+    "titleEn": "Explosion-Proof Pendant Light",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "descriptionEn": "Suitable for illumination in ships, oil extraction platforms, chemical industries and 1 and 2 filled with explosive gas.",
+    "category": "Light"
+  },
+  {
+    "id": 54,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 54",
+    "titleEn": "Explosion-Proof Fluoresent Light",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "descriptionEn": "Suitable for illumination in ships, oil extraction platforms, chemical industries and 1 and 2 filled with explosive gas.",
+    "category": "Light"
+  },
+  {
+    "id": 55,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 55",
+    "titleEn": "Ex-Proof Platform Flood Light",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "descriptionEn": "Provide the illumination for the passage in the flammable and explosive environment or sea oil platform.",
+    "category": "Light"
+  },
+  {
+    "id": 56,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 56",
+    "titleEn": "Fire Emergency Lighting",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "descriptionEn": "It is suitable for emergency lighting in 1 and 2 of explosive gas environment in chemical industry, workshop, warehouse, gas station, oil well platform, oil exploitation and smelting area, all kinds of ship emergency passages and offshore engineering platform.",
+    "category": "Light"
+  },
+  {
+    "id": 57,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 57",
+    "titleEn": "Explosion-Proof Flood Light",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "descriptionEn": "Applied to the explosive gas place 1 and 2 with the temperature group T1-T4, also suitable for remote illumination in ships, oil platforms and etc.",
+    "category": "Light"
+  },
+  {
+    "id": 58,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 58",
+    "titleEn": "Explosion-Proof Emergency Ceiling Light",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "descriptionEn": "Suitable for illumination in ships, oil extraction platforms, chemical industries and 1 or 2 filled with explosive gas.",
+    "category": "Light"
+  },
+  {
+    "id": 59,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 59",
+    "titleEn": "Explosion-Proof Emergency Light",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "descriptionEn": "This product can be used in 1,2 for lighting function and emergency, which has explosive gas mixture.",
+    "category": "Light"
+  },
+  {
+    "id": 60,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 60",
+    "titleEn": "Expolison-Proof Exit Light",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "descriptionEn": "Applied to exit and channel indication on explosive gas 1 and 2 on ship channel, emergency exit.",
+    "category": "Light"
+  },
+  {
+    "id": 61,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 61",
+    "titleEn": "Explosion-Proof Connector",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "descriptionEn": "Suitable for electric appliance connection and circuit on-off in ships, sea petroleum and chemical industries and etc.",
+    "category": "Connector"
+  },
+  {
+    "id": 62,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 62",
+    "titleEn": "Explosion-Proof Switch",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "descriptionEn": "Suitable for electric appliance connection and circuit on-off in ships, sea petroleum and chemical industries and etc.",
+    "category": "Connector"
+  },
+  {
+    "id": 63,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 63",
+    "titleEn": "Explosion-Proof Control Button",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "descriptionEn": "Used in dangerous places such as chemical industry, oil refining, oil exploration, offshore oil platform, tanker, and military industry.",
+    "category": "Connector"
+  },
+  {
+    "id": 64,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 64",
+    "titleEn": "Explosion-Proof Junction Box",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "descriptionEn": "Is used for lighting, power and control lines connection and divide in chemical, refining, oil exploitation, offshore oil platforms, oil tankers and military, etc hazardous areas.",
+    "category": "Connector"
+  },
+  {
+    "id": 65,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 65",
+    "titleEn": "Explosion-Proof Master Controller",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "descriptionEn": "Zone 1 and Zone 2 explosive gas environment, or Zone 21 and Zone 22 flammable dust environment, strong corrosive gas environment; used in dangerous places such as chemical industry, oil refining, petroleum exploitation, offshore oil platform, tanker, military industry and so on.",
+    "category": "Connector"
+  },
+  {
+    "id": 66,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 66",
+    "titleEn": "Explosion-Proof Connecting Device",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "descriptionEn": "Zone 1 and Zone 2 explosive gas environment, or Zone 21 and Zone 22 flammable dust environment, strong corrosive gas environment; used in dangerous places such as chemical industry, oil refining, petroleum exploitation, offshore oil platform, tanker, military industry and so on.",
+    "category": "Connector"
+  },
+  {
+    "id": 67,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 67",
+    "titleEn": "Explosion-Proof Isolation Switch",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "descriptionEn": "Zone 1 and Zone 2 explosive gas environment, or Zone 21 and Zone 22 flammable dust environment, strong corrosive gas environment; used in dangerous places such as chemical industry, oil refining, petroleum exploitation, offshore oil platform, tanker, military industry and so on.",
+    "category": "Connector"
+  },
+  {
+    "id": 68,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 68",
+    "titleEn": "Explosion-Proof Load Isolating Switch",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "descriptionEn": "Class A - C explosive gas atmosphere in 1 and 2; Strong corrosive gas environment; Temperature group T1-T6; Used in hazardous locations such as chemical industry, oil refining, oil exploration, offshore oil platforms, oil tankers, and military industries.",
+    "category": "Connector"
+  },
+  {
+    "id": 69,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 69",
+    "titleEn": "Solar Flyhorse Light",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "descriptionEn": "The product has high charging, the solar panel can be adjusted vertically / horizontally 360° ; the lens has a large irradiation area and uniform illumination, and the entire lighting effect is 180lm-200lm / w; it is embedded with an intelligent monitoring and control system, which can intelligently sense the ambient temperature, humidity and PM value Automatically adjusted the color temperature when changing, and plan the discharge power to light up for a longer time. Can add ordinary or 4g camera.",
+    "category": "Light"
+  },
+  {
+    "id": 70,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 70",
+    "titleEn": "Solar Nighthawk Light",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "descriptionEn": "The product supports zero volt charging, the solar panel can be adjusted vertically / horizontally 360° the lens has a large irradiation area and uniform illumination, and the entire lighting effect reaches 170lm / w; it is embedded with an intelligent monitoring and control system, which can intelligently sense the ambient temperature, humidity and PM value Automatically adjusted the color temperature when changing, and plan the discharge power to light up for a longer time. Can add ordinary or 4g camera.",
+    "category": "Light"
+  },
+  {
+    "id": 71,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 71",
+    "titleEn": "Solar Flyshark Light",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "descriptionEn": "The product supports zero-volt charging, the solar panel can be adjusted vertically / horizontally 360° ; the lens has a large irradiation area and uniform illumination, and the overall lighting effect is 150lm / w; it is intelligently sense changes in ambient temperature, humidity and PM values and automatically plan discharge power to light Longer time.",
+    "category": "Light"
+  },
+  {
+    "id": 72,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 72",
+    "titleEn": "Solar Swan Light",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "descriptionEn": "The product supports zero-volt charging, the solar panel can be adjusted vertically / horizontally 360° ; the lens has a large irradiation area and uniform illumination, and the overall lighting effect is 160lm / w; it is intelligently sense changes in ambient temperature, humidity and PM values and automatically plan discharge power to light Longer time.",
+    "category": "Light"
+  },
+  {
+    "id": 73,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 73",
+    "titleEn": "Solar Flybird Light",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "descriptionEn": "The product supports zero-volt charging, the solar panel can be adjusted vertically / horizontally 360° ; the lens has a large irradiation area and uniform illumination, and the overall lighting effect is 150lm / w; it is intelligently sense changes in ambient temperature, humidity and PM value and automatically plan discharge power to light Longer time.",
+    "category": "Light"
+  },
+  {
+    "id": 74,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 74",
+    "titleEn": "Solar Sailing Light",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "descriptionEn": "The product supports zero-volt charging, the solar panel can be adjusted vertically / horizontally 360° ; the lens has a large irradiation area and uniform illumination, and the overall lighting effect is 160lm / w; it is intelligently sense changes in ambient temperature, humidity and PM value and automatically plan discharge power to light Longer time.",
+    "category": "Light"
+  },
+  {
+    "id": 75,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 75",
+    "titleEn": "Solar Butterfly Light",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "descriptionEn": "The product supports zero-volt charging, the solar panel can be adjusted vertically / horizontally 360° ; the lens has a large irradiation area and uniform illumination, and the overall lighting effect is 150lm / w; it is intelligently sense changes in ambient temperature, humidity and PM value and automatically plan discharge power to light Longer time. The network version has Bluetooth speaker function and multi-lamp network playback function.",
+    "category": "Light"
+  },
+  {
+    "id": 76,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 76",
+    "titleEn": "Solar Moon Light",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "descriptionEn": "The product supports zero-volt charging, the solar panel can be adjusted vertically / horizontally 360° ; the lens has a large irradiation area and uniform illumination, it can intelligently sense changes in ambient temperature, humidity and PM value and automatically plan the discharge power to turn on for longer.",
+    "category": "Light"
+  },
+  {
+    "id": 77,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 77",
+    "titleEn": "Solar Moon Light",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "descriptionEn": "The product supports zero-volt charging, the solar panel can be adjusted vertically / horizontally 360° ; the lens has a large irradiation area and uniform illumination, it can intelligently sense changes in ambient temperature, humidity and PM value and automatically plan the discharge power to turn on for longer.",
+    "category": "Light"
+  },
+  {
+    "id": 78,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 78",
+    "titleEn": "Portable Work Light",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "descriptionEn": "Applied to suitable for mobile lighting in ships, port, docks, industrial and mining places.",
+    "category": "Light",
+    "isNew": "yes"
+  },
+  {
+    "id": 79,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 79",
+    "titleEn": "Portable Explosion-Proof Searchlight",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "descriptionEn": "Applied to suitable for mobile lighting is ships, ports, docks, industrial and mining, flammable and explosive places.",
+    "category": "Light",
+    "isNew": "yes"
+  },
+  {
+    "id": 80,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 80",
+    "titleEn": "Mini Explosion-Proof Flashlight",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "descriptionEn": "Applied to suitable for mobile lighting in ships, ports, docks, industrial and mining, flammable and explosive places.",
+    "category": "Light",
+    "isNew": "yes"
+  },
+  {
+    "id": 81,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 80",
+    "titleEn": "Work Lights",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "descriptionEn": "Suitable for temporary lighting for all kinds of ships, pipelines, tunnel construction and maintenance, using special rubber flat cable and puncture connection structure, temporary lighting can be flexibly arranged according to construction needs, 36V safety special voltage power supply, battery emergency lighting function.",
+    "category": "Light",
+    "isNew": "yes"
+  },
+  {
+    "id": 82,
+    "image": "https://picsum.photos/500/300",
+    "title": "Lorem Ipsum 80",
+    "titleEn": "Thermometer Torch",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "descriptionEn": "Applicable to the patrol lighting in those fields such as coal, grid electricity, factory electricity, oil field, petrochemical engineering, railway, civil aviation, shipping.",
+    "category": "Light",
+    "isNew": "yes"
   }
 ]

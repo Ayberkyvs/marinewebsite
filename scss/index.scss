@@ -1,9 +1,12 @@
 @import "pages/_index.scss";
 @import "abstracts/_variables.scss";
 @import "base/_reset.scss";
+@import "abstracts/_mixins.scss";
 
 @import "layout/header";
+@import "layout/footer";
 
 @import "components/aboutus";
 @import "components/services";
 @import "components/products";
+@import "components/contactus";
