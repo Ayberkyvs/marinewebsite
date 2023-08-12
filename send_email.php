@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($name) || empty($email) || empty($message)) {
         $titleMessage = "Please fill out all fields.";
         $outputTitle = "Please fill out all fields.";
-        $isSuccess = false;
+        $isSuccess = "red";
     } else {
         $to = "ayberk.yavas@pinyin-marine.com";
         $subject = "Website Form Submission from $name";
@@ -34,12 +34,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
            $titleMessage = "Sent successfully!";
            $outputTitle = "Your Mail Sent Successfully!";
            $outputText = "The email you sent using our website's contact form has been successfully received and is now on its way to the recipient. While representing an important step for you, we would like to emphasize that the process has been completed successfully.";
-            $isSuccess = true;
+            $isSuccess = "#00c137";
         } else {
             $titleMessage = "An error occurred.";
             $outputTitle = "An error occurred while sending the email.";
             $outputText = "The email you attempted to send using our website's contact form could not be delivered at this time. We apologize for any inconvenience this may have caused. Please ensure that all required fields are properly filled out and try again. If the issue persists, feel free to reach out to our support team for further assistance. Thank you for your understanding.";
-            $isSuccess = false;
+            $isSuccess = "red";
         }
     }
 }
@@ -90,7 +90,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     .mail-seccess .success-inner h1 {
         font-size: 100px;
         text-shadow: 3px 5px 2px #3333;
-        color: #00c137;
+        color: <?php echo $isSuccess; ?>;
         font-weight: 700;
     }
 
@@ -119,7 +119,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <div class="col-lg-6 offset-lg-3 col-12">
                     <!-- Error Inner -->
                     <div class="success-inner">
-                        <h1><i class="fa fa-envelope"></i><span>Your Mail Sent Successfully!</span></h1>
+                        <h1><i class="fa fa-envelope"></i><span><?php echo $outputTitle; ?></span></h1>
                         <p><?php echo $outputText ?></p>
                         <h6>developed by <a href="ayberkyavas.com" target="_blank">YAVAS</a></h6>
                     </div>
