@@ -674,15 +674,26 @@ html {
   transform: translateY(-50%);
 }
 
+.alert-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (min-width: 800px) {
   .card img {
     height: 11em;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
   .products-wrapper {
     padding: 0;
   }
+  .card {
+    width: 50% !important;
+  }
+}
+@media (max-width: 800px) {
   .card {
     width: 100% !important;
   }

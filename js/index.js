@@ -7,7 +7,6 @@ const hamburgerMenuLine = document.querySelectorAll(".hamburger-line");
 const menu = document.querySelector(".menu");
 const menuLinks = document.querySelectorAll('a[href^="#"]');
 run();
-// Menü bağlantılarına tıklandığında yavaşça kayarak gitme
 
 function run() {
   document.addEventListener("scroll", handleScroll);

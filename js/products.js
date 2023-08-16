@@ -21,10 +21,15 @@ async function veriCek() {
     console.error("Veri çekme hatası:", error);
   }
 }
+const LightList = [];
+const ConnectorList = [];
+const LifeSavingList = [];
+const SparePartsList = [];
+
 function categorizeData(data) {
   if (data.length > 0) {
     for (let i = 0; i < data.length; i++) {
-      if (data[i].category === "Light") {
+      if (data[i].category === "Navigation & Signal Lights") {
         LightList.push(data[i]);
       }
       if (data[i].category === "Connector") {
@@ -42,13 +47,9 @@ function categorizeData(data) {
     addToUI(LifeSavingList, 2);
     addToUI(SparePartsList, 3);
   } else {
-    console.error("Veri Yok");
+    console.log("Veri Yok");
   }
 }
-const LightList = [];
-const ConnectorList = [];
-const LifeSavingList = [];
-const SparePartsList = [];
 
 function addToUI(data, index) {
   if (data.length > 0) {
@@ -79,6 +80,13 @@ function addToUI(data, index) {
 
       activeCarouselItem = false;
     }
+  } else {
+    const carouselInner = document.querySelectorAll(".carousel-inner")[index];
+    const errorMessage = document.createElement("div");
+    errorMessage.className = "alert alert-danger alert-center";
+    errorMessage.role = "alert";
+    errorMessage.innerHTML = `Veri Bulunamadı !`;
+    carouselInner.appendChild(errorMessage);
   }
 }
 
@@ -98,7 +106,7 @@ function createCard(
   const cardText = document.createElement("p");
   card.className = "card";
   if (!isFirstCard) {
-    card.classList.add("d-none", "d-md-block");
+    card.classList.add("d-none", "d-xl-block");
   }
   cardBody.className = "card-body";
   img.className = "card-img-top";
